@@ -208,37 +208,46 @@ func longestPalindrome(_ s: String) -> String {
 
 // MARK: - 17. Letter Combinations of a Phone Number
 
-func letterCombinations(_ digits: String) -> [String] {
-    let digitsArr = Array(digits)
-    let ph: [Character: [String]] = [
-        "2": ["a", "b", "c"],
-        "3": ["d", "e", "f"],
-        "4": ["g", "h", "i"],
-        "5": ["j", "k", "l"],
-        "6": ["m", "n", "o"],
-        "7": ["p", "q", "r", "s"],
-        "8": ["t", "u", "v"],
-        "9": ["w", "x", "y", "z"],
-    ]
-    
-    var res = [String]()
-    
-    for (i, v) in digitsArr.enumerated() {
-        if i == 0 {
-            res.append(contentsOf: ph[v]!)
-        } else {
-            for i in 0..<res.count {
-                for p in ph[v]! {
-                    res[i] += p
-                }
-            }
-        }
-    }
-    return res
-}
-
-let com = letterCombinations("23")
-print(com)
+//func letterCombinations(_ digits: String) -> [String] {
+//    if digits.isEmpty {
+//        return []
+//    }
+//    let map: [Character: String] = [
+//        "2": "abc",
+//        "3": "def",
+//        "4": "ghi",
+//        "5": "jkl",
+//        "6": "mno",
+//        "7": "pqrs",
+//        "8": "tuv",
+//        "9": "wxyz",
+//    ]
+//
+//    var stringArr = [String]()
+//    for d in digits {
+//        if let value = map[d] {
+//            stringArr.append(value)
+//        }
+//    }
+//
+//    var combinations = [String]()
+//    letterCombinations(0, stringArr, "", &combinations)
+//    return combinations
+//}
+//
+//func letterCombinations(_ index: Int, _ strings: [String], _ carry: String, _ combinations: inout [String]) {
+//    if index >= strings.count {
+//        combinations.append(carry)
+//        return
+//    }
+//
+//    for c in strings[index] {
+//        letterCombinations((index+1), strings, (carry + String(c)), &combinations)
+//    }
+//}
+//
+//let com = letterCombinations("9")
+//print(com)
 
 // MARK: - 18. 4Sum
 
@@ -660,20 +669,17 @@ func solveSudoku(_ board: inout [[Character]]) {
 
 // MARK: - 198. House Robber
 
-func rob(_ nums: [Int]) -> Int {
-    var even: [Int] = []
-    var odd: [Int] = []
-    for i in 0..<nums.count {
-        if i % 2 == 0 {
-            even.append(nums[i])
-        } else {
-            odd.append(nums[i])
-        }
-    }
-    return max(even.reduce(0, +), odd.reduce(0, +))
-}
-
-print(rob([2]))
+//func rob(_ nums: [Int]) -> Int {
+//    var prev = 0, current = 0
+//
+//    for num in nums {
+//        let temp = prev
+//        prev = current
+//        current = max(num + temp, prev)
+//    }
+//    return current
+//}
+//print(rob([2, 1, 3, 10]))
 
 
 // MARK: - 202. Happy Number
