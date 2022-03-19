@@ -1,5 +1,22 @@
 import Cocoa
 
+// MARK: - 1. Two Sum
+
+//func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+//    var numToIndex: [Int: Int] = [:]
+//    for index in nums.indices {
+//        let num = nums[index]
+//        let needle = target - num
+//        if let previousIndex = numToIndex[needle], previousIndex != index {
+//            return [previousIndex, index]
+//        }
+//        numToIndex[num] = index
+//    }
+//    return []
+//}
+//print(twoSum([3,2,4], 6))
+
+
 // MARK: - 3. Longest Substring Without Repeating Characters
 
 //func lengthOfLongestSubstring(_ s: String) -> Int {
@@ -76,6 +93,45 @@ func longestPalindrome(_ s: String) -> String {
 //print(convert("PAYPALISHIRING", 3))
 
 
+// MARK: - 7. Reverse Integer
+
+//func reverse(_ x: Int) -> Int {
+//    var unsignedX = abs(x)
+//    var reverse = 0
+//    while unsignedX > 0 {
+//        let lastDigit = unsignedX % 10
+//        unsignedX /= 10
+//        reverse = reverse * 10 + lastDigit
+//        if reverse > Int32.max {
+//            return 0
+//        }
+//    }
+//    if x < 0 {
+//        return -reverse
+//    }
+//    return reverse
+//}
+//print(reverse(-120))
+
+
+// MARK: - 9. Palindrome Number
+
+//func isPalindrome(_ x: Int) -> Bool {
+//    var rev = 0
+//    var n = x
+//    if n >= 0 {
+//        while n > 0 {
+//            rev = rev*10 + (n%10)
+//            n = n/10
+//        }
+//        if rev == x {
+//            return true
+//        }
+//    }
+//    return false
+//}
+
+
 // MARK: - 11. Container With Most Water
 
 //func maxArea(_ height: [Int]) -> Int {
@@ -111,21 +167,49 @@ func longestPalindrome(_ s: String) -> String {
 //print(a)
 
 
+// MARK: - 13. Roman to Integer
+
+//func romanToInt(_ s: String) -> Int {
+//    let dict: [String.Element: Int] = [
+//        "I": 1,
+//        "V": 5,
+//        "X": 10,
+//        "L": 50,
+//        "C": 100,
+//        "D": 500,
+//        "M": 1000
+//    ]
+//    var prevValue = 0
+//    var result = 0
+//
+//    for char in s {
+//        let value = dict[char] ?? 0
+//        if value > prevValue {
+//            result += value - 2*prevValue
+//        } else {
+//            result += value
+//        }
+//        prevValue = value
+//    }
+//    return result
+//}
+//
+//let roman = romanToInt("MCXIII")
+//print(roman)
+
+
 // MARK: - 14. Longest Common Prefix
 
 //func longestCommonPrefix(_ strs: [String]) -> String {
-//    if strs.contains("") {
-//        return ""
-//    }
-//
-//    let minLengthWord = strs.min {$0.count <= $1.count}!
-//    for i in 1...minLengthWord.count {
-//        let prefixs = strs.map {$0.prefix(i)}
-//        if !prefixs.allSatisfy({$0 == minLengthWord.prefix(i)}) {
-//            return String(minLengthWord.prefix(i-1))
+//    if strs.count == 0 { return "" }
+//    var minStr = (strs.min{$0.count < $1.count})!
+//    
+//    for str in strs{
+//        while !str.hasPrefix(minStr){
+//            minStr.removeLast()
 //        }
 //    }
-//    return minLengthWord
+//    return minStr
 //}
 //
 //let prefix = longestCommonPrefix(["ab", "absg"])
