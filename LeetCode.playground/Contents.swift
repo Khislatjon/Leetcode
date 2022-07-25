@@ -1,5 +1,86 @@
 import Cocoa
 
+//public func solution(_ A : inout [Int]) -> Int {
+//    let sorted = A.filter {$0 > 0 }.sorted()
+//    if let max = sorted.max(), max > 0 {
+//        for i in 1..<max {
+//            if !sorted.contains(i) {
+//                return i
+//            }
+//        }
+//        return max + 1
+//    }
+//    return 1
+//}
+//
+//var a = [4, 3, 6, 4, 5, 2, 0]
+//let s = solution(&a)
+//print(s)
+
+//public func solution(_ message : inout String, _ K : Int) -> String {
+//    var cut = String(message.prefix(K))
+//    let allW = message.split(separator: " ")
+//    var arr = cut.split(separator: " ")
+//    for word in arr {
+//        if !allW.contains(word) {
+//            arr.removeLast()
+//            break
+//        }
+//    }
+//    cut = arr.joined(separator: " ")
+//    return cut
+//}
+//
+//var str = "Codility We test coders"
+//let a = solution(&str, 100)
+//print(a)
+
+
+//public func solution(_ P : inout [Int], _ S : inout [Int]) -> Int {
+//    var freeSeat = S.reduce(0, +) - P.reduce(0, +)
+//    var carParked = 0
+//    for p in P {
+//        if freeSeat >= p {
+//            freeSeat -= p
+//            carParked += 1
+//        }
+//    }
+//    return S.count - carParked
+//}
+//
+//var p = [2, 3, 4, 2]
+//var s = [2, 5, 7, 2]
+//let a = solution(&p, &s)
+//print(a)
+
+
+//public func solution(_ A : inout [Int]) -> Int {
+//    let total = Double(A.reduce(0, +))
+//    var cur = total
+//    var filterCount = 0
+//    var sorted = A.sorted {$0 > $1}.map{Double($0)}
+//
+//    var i = 0
+//    while i < sorted.count {
+//        cur -= sorted[i] / 2.0
+//        filterCount += 1
+//        if cur <= total / 2.0 {
+//            return filterCount
+//        }
+//
+//        if sorted[i] > 2*sorted[i+1] {
+//            sorted[i] = sorted[i] / 2.0
+//        } else {
+//            i += 1
+//        }
+//    }
+//    return filterCount
+//}
+//
+//var f = [0, 0, 9]
+//let s = solution(&f)
+//print(s)
+
 // MARK: - 1. Two Sum
 
 //func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -117,19 +198,17 @@ func longestPalindrome(_ s: String) -> String {
 // MARK: - 9. Palindrome Number
 
 //func isPalindrome(_ x: Int) -> Bool {
+//    guard x >= 0 else { return false }
 //    var rev = 0
 //    var n = x
-//    if n >= 0 {
-//        while n > 0 {
-//            rev = rev*10 + (n%10)
-//            n = n/10
-//        }
-//        if rev == x {
-//            return true
-//        }
+//
+//    while n > 0 {
+//        rev = rev * 10 + (n % 10)
+//        n /= 10
 //    }
-//    return false
+//    return rev == x
 //}
+//print(isPalindrome(10123))
 
 
 // MARK: - 11. Container With Most Water
@@ -140,7 +219,8 @@ func longestPalindrome(_ s: String) -> String {
 //    var maxArea = 0
 //
 //    while left < right {
-//        maxArea = max(maxArea, min(height[left], height[right])*(right-left))
+//        let minHeight = min(height[left], height[right])
+//        maxArea = max(maxArea, minHeight * (right - left))
 //        if height[left] < height[right] {
 //            left += 1
 //        } else {
@@ -393,6 +473,13 @@ func longestPalindrome(_ s: String) -> String {
 //print(isValid("[([]])"))
 
 
+// MARK: - 22. Generate Parentheses
+
+func generateParenthesis(_ n: Int) -> [String] {
+    return [""]
+}
+
+
 // MARK: - 28. Implement strStr()
 
 //func strStr(_ haystack: String, _ needle: String) -> Int {
@@ -492,6 +579,39 @@ func longestPalindrome(_ s: String) -> String {
 func solveSudoku(_ board: inout [[Character]]) {
         
 }
+
+
+// MARK: - 48. Rotate Image
+
+//func rotate(_ matrix: inout [[Int]]) {
+//    guard !matrix.isEmpty, matrix.count == matrix[0].count else { return }
+//    var l = 0
+//    var r = matrix.count - 1
+//
+//    while l < r {
+//        for i in 0..<(r-l) {
+//            let top = l
+//            let bottom = r
+//
+//            // Save top Left
+//            let topLeft = matrix[top][l + i]
+//
+//            // Replace top Left with bottom Left
+//            matrix[top][l + i] = matrix[bottom - i][l]
+//
+//            // Replace bottom Left with bottom Right
+//            matrix[bottom - i][l] = matrix[bottom][r - i]
+//
+//            // Replace bottom Right with top Right
+//            matrix[bottom][r - i] = matrix[top + i][r]
+//
+//            // Replace top Right with top Left
+//            matrix[top + i][r] = topLeft
+//        }
+//        l += 1
+//        r -= 1
+//    }
+//}
 
 
 // MARK: - 53. Maximum Subarray
