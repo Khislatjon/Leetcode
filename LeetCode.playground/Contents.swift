@@ -871,6 +871,30 @@ func solveSudoku(_ board: inout [[Character]]) {
 //print(r)
 
 
+// MARK: - 189. Rotate Array
+
+//func rotate(_ nums: inout [Int], _ k: Int) {
+//    let n = k % nums.count
+//    reverse(&nums, 0, nums.count - 1)
+//    reverse(&nums, 0, n - 1)
+//    reverse(&nums, n, nums.count - 1)
+//    print(nums)
+//}
+//func reverse(_ nums: inout [Int], _ start: Int, _ end: Int) {
+//    var l = start
+//    var r = end
+//    while (l < r) {
+//        let temp = nums[l]
+//        nums[l] = nums[r]
+//        nums[r] = temp
+//        l += 1
+//        r -= 1
+//    }
+//}
+//var arr = [1,2,3,4,5,6,7]
+//rotate(&arr, 3)
+
+
 // MARK: - 198. House Robber
 
 //func rob(_ nums: [Int]) -> Int {
@@ -941,6 +965,24 @@ func solveSudoku(_ board: inout [[Character]]) {
 //
 //let iso = isIsomorphic("paper", "title")
 //print(iso)
+
+
+// MARK: - 217. Contains Duplicate
+
+//func containsDuplicate(_ nums: [Int]) -> Bool {
+//    guard !nums.isEmpty else { return false }
+//    var dict = [Int: Int]()
+//
+//    for num in nums {
+//        if dict[num] == nil {
+//            dict[num] = num
+//        } else {
+//            return true
+//        }
+//    }
+//    return false
+//}
+//print(containsDuplicate([1, 2, 2, 4, 5]))
 
 
 // MARK: - 242. Valid Anagram
@@ -1138,6 +1180,32 @@ func solveSudoku(_ board: inout [[Character]]) {
 //    }
 //    return count
 //}
+
+
+// MARK: - 1768. Merge Strings Alternately
+
+func mergeAlternately(_ word1: String, _ word2: String) -> String {
+    var result = ""
+    let arr1 = Array(word1)
+    let arr2 = Array(word2)
+    
+    var i = 0
+    while i < arr1.count {
+        result.append(arr1[i])
+        if i < arr2.count {
+            result.append(arr2[i])
+        }
+        i += 1
+    }
+    
+    // In case arr2 longer than arr1
+    while i < arr2.count {
+        result.append(arr2[i])
+        i += 1
+    }
+    return result
+}
+print(mergeAlternately("abc", "pqruvg"))
 
 
 // MARK: - 2186. Minimum Number of Steps to Make Two Strings Anagram II
