@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E047212288FB1B900D2F087 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E047211288FB1B900D2F087 /* main.swift */; };
+		0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981728B46DF000D269E0 /* ListNode.swift */; };
+		0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */; };
+		0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +28,10 @@
 /* Begin PBXFileReference section */
 		0E04720E288FB1B900D2F087 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E047211288FB1B900D2F087 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0E047218288FB20B00D2F087 /* LeetCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E04721A288FB3CB00D2F087 /* LeetCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EB8981728B46DF000D269E0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList.swift; sourceTree = "<group>"; };
+		0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +48,7 @@
 		0E047205288FB1B900D2F087 = {
 			isa = PBXGroup;
 			children = (
-				0E047218288FB20B00D2F087 /* LeetCode.playground */,
+				0E04721A288FB3CB00D2F087 /* LeetCode.playground */,
 				0E047210288FB1B900D2F087 /* LeetCode */,
 				0E04720F288FB1B900D2F087 /* Products */,
 			);
@@ -59,9 +65,84 @@
 		0E047210288FB1B900D2F087 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				0EB8981628B46DDD00D269E0 /* DS */,
+				0EED057D289A9FB8006F6FC2 /* In Progress */,
+				0E04721B288FB40300D2F087 /* Completed */,
 				0E047211288FB1B900D2F087 /* main.swift */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		0E04721B288FB40300D2F087 /* Completed */ = {
+			isa = PBXGroup;
+			children = (
+				0EED057A289A9F9B006F6FC2 /* Easy */,
+				0EED057B289A9FA1006F6FC2 /* Medium */,
+				0EED057C289A9FA9006F6FC2 /* Hard */,
+			);
+			path = Completed;
+			sourceTree = "<group>";
+		};
+		0EB8981628B46DDD00D269E0 /* DS */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8981728B46DF000D269E0 /* ListNode.swift */,
+			);
+			path = DS;
+			sourceTree = "<group>";
+		};
+		0EED057A289A9F9B006F6FC2 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		0EED057B289A9FA1006F6FC2 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		0EED057C289A9FA9006F6FC2 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		0EED057D289A9FB8006F6FC2 /* In Progress */ = {
+			isa = PBXGroup;
+			children = (
+				0EED057E289A9FC8006F6FC2 /* Easy */,
+				0EED0580289A9FD5006F6FC2 /* Medium */,
+				0EED057F289A9FD0006F6FC2 /* Hard */,
+			);
+			path = "In Progress";
+			sourceTree = "<group>";
+		};
+		0EED057E289A9FC8006F6FC2 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		0EED057F289A9FD0006F6FC2 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		0EED0580289A9FD5006F6FC2 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E047212288FB1B900D2F087 /* main.swift in Sources */,
+				0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */,
+				0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */,
+				0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -264,11 +264,7 @@ func longestPalindrome(_ s: String) -> String {
 //
 //    for char in s {
 //        let value = dict[char] ?? 0
-//        if value > prevValue {
-//            result += value - 2*prevValue
-//        } else {
-//            result += value
-//        }
+//        result += value > prevValue ? value - 2*prevValue : value
 //        prevValue = value
 //    }
 //    return result
@@ -281,11 +277,11 @@ func longestPalindrome(_ s: String) -> String {
 // MARK: - 14. Longest Common Prefix
 
 //func longestCommonPrefix(_ strs: [String]) -> String {
-//    if strs.count == 0 { return "" }
+//    guard strs.count > 0 else { return "" }
 //    var minStr = (strs.min{$0.count < $1.count})!
-//    
-//    for str in strs{
-//        while !str.hasPrefix(minStr){
+//
+//    for str in strs {
+//        while !str.hasPrefix(minStr) {
 //            minStr.removeLast()
 //        }
 //    }
@@ -373,9 +369,7 @@ func longestPalindrome(_ s: String) -> String {
 // MARK: - 17. Letter Combinations of a Phone Number
 
 //func letterCombinations(_ digits: String) -> [String] {
-//    if digits.isEmpty {
-//        return []
-//    }
+//    guard !digits.isEmpty else { return [] }
 //    let map: [Character: String] = [
 //        "2": "abc",
 //        "3": "def",
@@ -387,6 +381,7 @@ func longestPalindrome(_ s: String) -> String {
 //        "9": "wxyz",
 //    ]
 //
+//    // Get all values from input
 //    var stringArr = [String]()
 //    for d in digits {
 //        if let value = map[d] {
@@ -394,23 +389,24 @@ func longestPalindrome(_ s: String) -> String {
 //        }
 //    }
 //
+//    // Recursive function call
 //    var combinations = [String]()
-//    letterCombinations(0, stringArr, "", &combinations)
+//    getCombinations(0, stringArr, "", &combinations)
 //    return combinations
 //}
 //
-//func letterCombinations(_ index: Int, _ strings: [String], _ carry: String, _ combinations: inout [String]) {
+//func getCombinations(_ index: Int, _ strings: [String], _ carry: String, _ combinations: inout [String]) {
 //    if index >= strings.count {
 //        combinations.append(carry)
 //        return
 //    }
 //
 //    for c in strings[index] {
-//        letterCombinations((index+1), strings, (carry + String(c)), &combinations)
+//        getCombinations((index+1), strings, (carry + String(c)), &combinations)
 //    }
 //}
 //
-//let com = letterCombinations("9")
+//let com = letterCombinations("29")
 //print(com)
 
 // MARK: - 18. 4Sum
