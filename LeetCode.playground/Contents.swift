@@ -138,13 +138,6 @@ import Cocoa
 //print(a)
 
 
-// MARK: - 5. Longest Palindromic Substring
-
-func longestPalindrome(_ s: String) -> String {
-    return ""
-}
-
-
 // MARK: - 6. Zigzag Conversion
 
 //func convert(_ s: String, _ numRows: Int) -> String {

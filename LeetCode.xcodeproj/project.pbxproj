@@ -8,9 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0E047212288FB1B900D2F087 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E047211288FB1B900D2F087 /* main.swift */; };
+		0E0697F028C9B802008DF1BC /* Has3Divisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0697EF28C9B802008DF1BC /* Has3Divisors.swift */; };
+		0E0697F228C9B957008DF1BC /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0697F128C9B957008DF1BC /* MergeTwoSortedLists.swift */; };
+		0E0697F428CAEEBB008DF1BC /* SwapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0697F328CAEEBB008DF1BC /* SwapPairs.swift */; };
+		0E850DF128BF1A6A005C6923 /* IntersectionLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E850DF028BF1A6A005C6923 /* IntersectionLinkedLists.swift */; };
+		0EA9D7DA28CF742E0051F73E /* RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9D7D928CF742E0051F73E /* RemoveElements.swift */; };
+		0EABD2FA28CCD3C200415039 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD2F928CCD3C200415039 /* LongestPalindrome.swift */; };
+		0EABD2FC28CCE5D400415039 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD2FB28CCE5D400415039 /* Extensions.swift */; };
+		0EABD30028CDBE7E00415039 /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD2FF28CDBE7E00415039 /* Sqrt.swift */; };
+		0EB326D028BC836300DD597C /* DeleteMiddleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326CF28BC836300DD597C /* DeleteMiddleNode.swift */; };
+		0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D328BDA4C600DD597C /* PartitionList.swift */; };
+		0EB326D628BDADFF00DD597C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D528BDADFF00DD597C /* AddTwoNumbers.swift */; };
+		0EB326DA28BDCA9000DD597C /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D928BDCA9000DD597C /* PalindromeLinkedList.swift */; };
 		0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981728B46DF000D269E0 /* ListNode.swift */; };
 		0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */; };
 		0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */; };
+		0EBBB7B628D0E1BB00E8FD5E /* DivideArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBB7B528D0E1BB00E8FD5E /* DivideArray.swift */; };
+		0EBBB7B828D0E40100E8FD5E /* FindFinalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBB7B728D0E40100E8FD5E /* FindFinalValue.swift */; };
+		0EBBB7BA28D0E69400E8FD5E /* DominantIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBB7B928D0E69400E8FD5E /* DominantIndex.swift */; };
+		0EBBB7BC28D161F700E8FD5E /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBB7BB28D161F700E8FD5E /* ReverseLinkedList.swift */; };
+		0EBBB7BE28D166FF00E8FD5E /* KthDistinctString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBB7BD28D166FF00E8FD5E /* KthDistinctString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +46,26 @@
 		0E04720E288FB1B900D2F087 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E047211288FB1B900D2F087 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0E04721A288FB3CB00D2F087 /* LeetCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E0697EF28C9B802008DF1BC /* Has3Divisors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Has3Divisors.swift; sourceTree = "<group>"; };
+		0E0697F128C9B957008DF1BC /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		0E0697F328CAEEBB008DF1BC /* SwapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapPairs.swift; sourceTree = "<group>"; };
+		0E850DF028BF1A6A005C6923 /* IntersectionLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionLinkedLists.swift; sourceTree = "<group>"; };
+		0EA9D7D928CF742E0051F73E /* RemoveElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElements.swift; sourceTree = "<group>"; };
+		0EABD2F928CCD3C200415039 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		0EABD2FB28CCE5D400415039 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0EABD2FF28CDBE7E00415039 /* Sqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
+		0EB326CF28BC836300DD597C /* DeleteMiddleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMiddleNode.swift; sourceTree = "<group>"; };
+		0EB326D328BDA4C600DD597C /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
+		0EB326D528BDADFF00DD597C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		0EB326D928BDCA9000DD597C /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		0EB8981728B46DF000D269E0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList.swift; sourceTree = "<group>"; };
 		0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList2.swift; sourceTree = "<group>"; };
+		0EBBB7B528D0E1BB00E8FD5E /* DivideArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideArray.swift; sourceTree = "<group>"; };
+		0EBBB7B728D0E40100E8FD5E /* FindFinalValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFinalValue.swift; sourceTree = "<group>"; };
+		0EBBB7B928D0E69400E8FD5E /* DominantIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominantIndex.swift; sourceTree = "<group>"; };
+		0EBBB7BB28D161F700E8FD5E /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		0EBBB7BD28D166FF00E8FD5E /* KthDistinctString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthDistinctString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +117,36 @@
 			path = Completed;
 			sourceTree = "<group>";
 		};
+		0EB326CD28BC832100DD597C /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */,
+				0E0697F128C9B957008DF1BC /* MergeTwoSortedLists.swift */,
+				0EA9D7D928CF742E0051F73E /* RemoveElements.swift */,
+				0EBBB7BB28D161F700E8FD5E /* ReverseLinkedList.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		0EB326CE28BC833200DD597C /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */,
+				0EB326CF28BC836300DD597C /* DeleteMiddleNode.swift */,
+				0EB326D328BDA4C600DD597C /* PartitionList.swift */,
+				0EB326D528BDADFF00DD597C /* AddTwoNumbers.swift */,
+				0EB326D928BDCA9000DD597C /* PalindromeLinkedList.swift */,
+				0E850DF028BF1A6A005C6923 /* IntersectionLinkedLists.swift */,
+				0E0697F328CAEEBB008DF1BC /* SwapPairs.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
 		0EB8981628B46DDD00D269E0 /* DS */ = {
 			isa = PBXGroup;
 			children = (
 				0EB8981728B46DF000D269E0 /* ListNode.swift */,
+				0EABD2FB28CCE5D400415039 /* Extensions.swift */,
 			);
 			path = DS;
 			sourceTree = "<group>";
@@ -94,7 +154,13 @@
 		0EED057A289A9F9B006F6FC2 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */,
+				0EB326CD28BC832100DD597C /* LinkedList */,
+				0E0697EF28C9B802008DF1BC /* Has3Divisors.swift */,
+				0EABD2FF28CDBE7E00415039 /* Sqrt.swift */,
+				0EBBB7B528D0E1BB00E8FD5E /* DivideArray.swift */,
+				0EBBB7B728D0E40100E8FD5E /* FindFinalValue.swift */,
+				0EBBB7B928D0E69400E8FD5E /* DominantIndex.swift */,
+				0EBBB7BD28D166FF00E8FD5E /* KthDistinctString.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -102,7 +168,8 @@
 		0EED057B289A9FA1006F6FC2 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
-				0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */,
+				0EB326CE28BC833200DD597C /* LinkedList */,
+				0EABD2F928CCD3C200415039 /* LongestPalindrome.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -203,10 +270,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0697F428CAEEBB008DF1BC /* SwapPairs.swift in Sources */,
 				0E047212288FB1B900D2F087 /* main.swift in Sources */,
+				0EB326D028BC836300DD597C /* DeleteMiddleNode.swift in Sources */,
 				0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */,
+				0EB326DA28BDCA9000DD597C /* PalindromeLinkedList.swift in Sources */,
+				0EBBB7BC28D161F700E8FD5E /* ReverseLinkedList.swift in Sources */,
 				0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */,
+				0EABD30028CDBE7E00415039 /* Sqrt.swift in Sources */,
+				0EB326D628BDADFF00DD597C /* AddTwoNumbers.swift in Sources */,
+				0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */,
+				0E0697F228C9B957008DF1BC /* MergeTwoSortedLists.swift in Sources */,
+				0EBBB7BE28D166FF00E8FD5E /* KthDistinctString.swift in Sources */,
+				0EA9D7DA28CF742E0051F73E /* RemoveElements.swift in Sources */,
 				0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */,
+				0E850DF128BF1A6A005C6923 /* IntersectionLinkedLists.swift in Sources */,
+				0EBBB7B828D0E40100E8FD5E /* FindFinalValue.swift in Sources */,
+				0EABD2FA28CCD3C200415039 /* LongestPalindrome.swift in Sources */,
+				0E0697F028C9B802008DF1BC /* Has3Divisors.swift in Sources */,
+				0EBBB7BA28D0E69400E8FD5E /* DominantIndex.swift in Sources */,
+				0EABD2FC28CCE5D400415039 /* Extensions.swift in Sources */,
+				0EBBB7B628D0E1BB00E8FD5E /* DivideArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
