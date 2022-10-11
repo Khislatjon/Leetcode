@@ -487,18 +487,6 @@ func generateParenthesis(_ n: Int) -> [String] {
 //print(strStr("hello", "llo"))
 
 
-// MARK: - 35. Search Insert Position
-
-//func searchInsert(_ nums: [Int], _ target: Int) -> Int {
-//    if nums.contains(target) {
-//        return nums.firstIndex(of: target)!
-//    }
-//    return nums.firstIndex(where: {$0 > target}) ?? nums.count
-//}
-//
-//print(searchInsert([1,3,5,6], -2))
-
-
 // MARK: - 36. Valid Sudoku
 
 //func isValidSudoku(_ board: [[Character]]) -> Bool {
