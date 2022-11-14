@@ -11,22 +11,14 @@ import Foundation
 
 func findKthPositive(_ arr: [Int], _ k: Int) -> Int {
     var left = 0
-    var right = arr.count - 1
-    var res = 0
-    while left <= right {
+    var right = arr.count
+    while left < right {
         let mid = (left + right) / 2
-        if arr[mid] - (mid + 1) == k {
-            // move left
-            right = mid - 1
-            if arr[mid] - arr[right] > 0 {
-                res = arr[mid] - 1
-            }
-        } else if arr[mid] - (mid + 1) > k {
-            right = mid - 1
-        } else {
+        if arr[mid] - (mid + 1) < k {
             left = left + 1
+        } else {
+            right = mid
         }
     }
-    // handle greater case
-    return res
+    return left + k
 }

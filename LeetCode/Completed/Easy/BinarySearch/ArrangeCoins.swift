@@ -18,8 +18,10 @@ func arrangeCoins(_ n: Int) -> Int {
     var left = 1
     var right = n
     var res = 0
+    var i = 0
     
     while left <= right {
+        i += 1
         let mid = (left + right) / 2
         let coins = mid * (mid + 1) / 2
         if coins > n {
@@ -29,5 +31,6 @@ func arrangeCoins(_ n: Int) -> Int {
             res = max(res, mid)
         }
     }
+    print("i = \(i)")
     return res
 }
