@@ -123,4 +123,43 @@ import Foundation
 //let d = SolutionDeepestLeavesSum()
 //print(d.deepestLeavesSum(root))
 
-print(findTheDifference("", "a"))
+//print(findTheDifference("", "a"))
+//
+//let a = FindTheWinnerSolution()
+//print("res = ", a.findTheWinner(5, 2))
+
+//let graph = AdjacencyList<String>()
+//
+//let spiderMan = graph.createVertex(data: "Spider Man")
+//let ironMan = graph.createVertex(data: "Iron Man")
+//let captainAmerica = graph.createVertex(data: "Captain America")
+//let antMan = graph.createVertex(data: "Ant Man")
+//let civilWar = graph.createVertex(data: "Civil War")
+//let avengers = graph.createVertex(data: "Avengers")
+//let thor = graph.createVertex(data: "Thor")
+//let ragnarok = graph.createVertex(data: "Ragnarok")
+//let hulk = graph.createVertex(data: "Hulk")
+//
+//graph.add(.undirected, from: spiderMan, to: ironMan)
+//graph.add(.undirected, from: spiderMan, to: civilWar)
+//graph.add(.undirected, from: spiderMan, to: avengers)
+//graph.add(.undirected, from: ironMan, to: avengers)
+//graph.add(.undirected, from: ironMan, to: civilWar)
+//graph.add(.undirected, from: captainAmerica, to: civilWar)
+//graph.add(.undirected, from: captainAmerica, to: avengers)
+//graph.add(.undirected, from: captainAmerica, to: antMan)
+//graph.add(.undirected, from: antMan, to: civilWar)
+//graph.add(.undirected, from: antMan, to: avengers)
+//graph.add(.undirected, from: thor, to: avengers)
+//graph.add(.undirected, from: thor, to: ragnarok)
+//graph.add(.undirected, from: hulk, to: avengers)
+//graph.add(.undirected, from: hulk, to: ragnarok)
+//
+//print(graph)
+//
+//print(findCenter([[1,2],[5,1],[1,3],[1,4]]))
+
+//var root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(2, TreeNode(4), TreeNode(3)))
+//print(isSymmetric(root))
+
+print(interpret("G()()()()(al)"))
