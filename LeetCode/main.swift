@@ -162,4 +162,73 @@ import Foundation
 //var root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(2, TreeNode(4), TreeNode(3)))
 //print(isSymmetric(root))
 
-print(interpret("G()()()()(al)"))
+//print(interpret("G()()()()(al)"))
+
+//print(uniquePaths(3, 7))
+
+
+//let six = ListNode(6)
+//let five = ListNode(5, six)
+//let four = ListNode(4, five)
+//let three = ListNode(3, four)
+//let two = ListNode(2, three)
+//let one = ListNode(1, two)
+//
+//var node = oddEvenList(one)
+//while node != nil {
+//    print("v = ", node?.val as Any)
+//    node = node?.next
+//}
+
+//print(findSubstring("barfoofoobarthefoobarman", ["bar","foo","the"]))
+//print(findSubstring("wordgoodgoodjonngoodbestword", ["word","jonn","best","good"]))
+
+//let bo: Bool = search([1,3,5], 3)
+//print(bo)
+//let bo2: Bool = search([2,5,6,0,0,1,2], 3)
+//print(bo2)
+
+//print(findWinners([[2,3],[1,3],[5,4],[6,4]]))
+
+//print(reverseBits(4294967293))
+//print(xorOperation(4, 3))
+//print(rangeBitwiseAnd(5, 7))
+
+//print(minBitFlips(3, 4))
+
+//print(singleNumber([0,1,0,1,0,1,99]))
+
+//print(uniqueOccurrences([1,2,2,1,1,3]))
+
+//print(maxDepth())
+//print(minFallingPathSum([[2,1,3],[6,5,4]]))
+
+//print(sumSubarrayMins([11, 10]))
+
+
+
+//var root = TreeNode(1)
+//root.left = TreeNode(3)
+//root.right = TreeNode(2)
+//root.left?.left = TreeNode(5)
+//
+//var root2 = TreeNode(2)
+//root2.left = TreeNode(1)
+//root2.right = TreeNode(3)
+//root2.right?.left = TreeNode(7)
+//root2.left?.right = TreeNode(4)
+//
+//print(MergeTrees().mergeTrees(root, root2)?.val)
+
+//print(findErrorNums([1,1]))
+
+//var root = TreeNode(2)
+//root.left = TreeNode(3)
+//root.right = TreeNode(1)
+//root.left?.left = TreeNode(3)
+//root.left?.right = TreeNode(1)
+//root.right?.right = TreeNode(1)
+//
+//print(PseudoPalindromicPaths().pseudoPalindromicPaths(root))
+
+print(maxLength(["un","iq","ue"]))

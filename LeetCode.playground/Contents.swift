@@ -461,14 +461,6 @@ import Cocoa
 //
 //print(isValid("[([]])"))
 
-
-// MARK: - 22. Generate Parentheses
-
-func generateParenthesis(_ n: Int) -> [String] {
-    return [""]
-}
-
-
 // MARK: - 28. Implement strStr()
 
 //func strStr(_ haystack: String, _ needle: String) -> Int {
@@ -668,33 +660,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //}
 //
 //print(addBinary("11010","10011"))
-
-
-// MARK: - 70. Climbing Stairs
-
-//func climbStairs(_ n: Int) -> Int {
-//    if n == 1 {
-//        return 1
-//    }
-//    if n == 2 {
-//        return 2
-//    }
-//
-//    var lastNumber = 2
-//    var preLastNumber = 1
-//    var allWays = 0
-//
-//    for _ in 3...n {
-//        allWays = lastNumber + preLastNumber
-//        preLastNumber = lastNumber
-//        lastNumber = allWays
-//
-//    }
-//    return allWays
-//}
-//
-//let stair = climbStairs(5)
-//print(stair)
 
 
 // MARK: - 118. Pascal's Triangle
