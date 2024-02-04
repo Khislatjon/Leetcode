@@ -11,7 +11,6 @@ import Foundation
 
 func sumSubarrayMins(_ arr: [Int]) -> Int {
     var sum = 0
-
     for i in 0..<arr.count {
         var minV = arr[i]
         sum += minV
@@ -20,5 +19,5 @@ func sumSubarrayMins(_ arr: [Int]) -> Int {
             sum += minV
         }
     }
-    return sum
+    return sum % Int(truncating: NSDecimalNumber(decimal: pow(10, 9) + 7))
 }

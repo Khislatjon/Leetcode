@@ -231,4 +231,43 @@ import Foundation
 //
 //print(PseudoPalindromicPaths().pseudoPalindromicPaths(root))
 
-print(maxLength(["un","iq","ue"]))
+//print(maxLength(["un","iq","ue"]))
+
+//print(GenerateParentheses().generateParenthesis(3))
+
+//print(longestCommonSubsequence("abcde", "abc"))
+
+//print(findPaths(10, 10, 3, 1, 1))
+
+//print(kInversePairs(1000, 1000))
+
+//print(numTrees(6))
+
+//print(decrypt([2,4,9,3], -2))
+
+//print(findDuplicate([1,3,4,2,2]))
+
+
+//var root = TreeNode(2)
+//root.left = TreeNode(9)
+//root.right = TreeNode(3)
+//root.right?.right = TreeNode(4)
+//root.right?.right?.right = TreeNode(5)
+//root.right?.right?.right?.right = TreeNode(6)
+//root.right = TreeNode(3)
+//root.left?.left = TreeNode(3)
+//root.right?.left = TreeNode(15)
+//root.right?.right = TreeNode(7)
+//print(Solution().minDepth(root))
+
+//RecoverTree().recoverTree(root)
+
+//let root = SolutionBuildTree().buildTree([3,9,20,15,7], [9,3,15,20,7])
+//print(inorderTraversal(root))
+
+//let r = ConstructBinaryTreeFromInorderPostorderTraversal().buildTree([9,3,15,20,7], [9,15,7,20,3])
+//print(inorderTraversal(r))
+
+//print(DivideArray().divideArray([1,3,4,8,7,9,3,5,1], 2))
+//print(SequentialDigits().sequentialDigits(1_000_000_00, 1_000_000_000))
+print(MaxSumAfterPartitioning().maxSumAfterPartitioning([1,15,7,9,2,5,10], 3))

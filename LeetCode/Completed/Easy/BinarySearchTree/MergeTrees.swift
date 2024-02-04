@@ -24,7 +24,7 @@ class MergeTrees {
             sum += root1?.val ?? 0
             sum += root2?.val ?? 0
             result = TreeNode(sum)
-            var resultCopy = TreeNode(sum)
+            let resultCopy = TreeNode(sum)
             result?.left = helper(root1?.left, root2?.left, &resultCopy.left)
             result?.right = helper(root1?.right, root2?.right, &resultCopy.right)
             return result
