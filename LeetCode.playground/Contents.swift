@@ -1091,26 +1091,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //print(canConstr)
 
 
-// MARK: - 387. First Unique Character in a String
-
-//func firstUniqChar(_ s: String) -> Int {
-//    var dict = [Character: Int]()
-//    for char in s {
-//        dict[char] = dict[char] != nil ? dict[char]! + 1 : 1
-//    }
-//
-//    for (i, char) in s.enumerated() {
-//        if dict[char] == 1 {
-//            return i
-//        }
-//    }
-//    return -1
-//}
-//
-//let uniqueChar = firstUniqChar("leetcodel")
-//print(uniqueChar)
-
-
 // MARK: - 771. Jewels and Stones
 
 //func numJewelsInStones(_ jewels: String, _ stones: String) -> Int {

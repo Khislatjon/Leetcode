@@ -270,4 +270,66 @@ import Foundation
 
 //print(DivideArray().divideArray([1,3,4,8,7,9,3,5,1], 2))
 //print(SequentialDigits().sequentialDigits(1_000_000_00, 1_000_000_000))
-print(MaxSumAfterPartitioning().maxSumAfterPartitioning([1,15,7,9,2,5,10], 3))
+//print(MaxSumAfterPartitioning().maxSumAfterPartitioning([1,15,7,9,2,5,10], 3))
+
+
+//var myHeap = MaxHeap()
+//
+//myHeap.add(2)
+//myHeap.add(10)
+//myHeap.add(8)
+//myHeap.add(9)
+//myHeap.add(7)
+//myHeap.add(3)
+//myHeap.add(4)
+//dump(myHeap.items)
+//
+//print(myHeap.peek()) // Prints 2 to the console on the right in Swift Playgrounds
+//print(myHeap.poll())
+//dump(myHeap.items)
+
+
+//print(FindKthLargest().findKthLargest([3,2,1,5,6,4], 2))
+
+//print(nthUglyNumber(309))
+
+//let uniqueChar = firstUniqChar("leetcodel")
+//print(uniqueChar)
+
+
+//var nums = [2, 5, 6, 1, 4, 3]
+//selectionSort(&nums)
+//print(nums)
+
+//groupAnagrams(["eat","tea","tan","ate","nat","bat"])
+
+
+//var root = TreeNode(4)
+//root.left = TreeNode(9)
+//root.right = TreeNode(0)
+//root.left?.right = TreeNode(1)
+//root.right?.right?.right = TreeNode(5)
+//root.right?.right?.right?.right = TreeNode(6)
+//root.right = TreeNode(3)
+//root.left?.left = TreeNode(5)
+//root.right?.left = TreeNode(15)
+//root.right?.right = TreeNode(7)
+//print(SumRootToLeafNumbers().sumNumbers(root))
+
+
+//print(maximumGap([3,6,9,1]))
+
+//var nums = [2, 8, 5, 3, 9, 1]
+//insertionSort(&nums)
+//heapSort(&nums)
+//print(nums)
+
+//var nums1 = [1,2,3,0,0,0]
+//var nums2 = [2,5,6]
+//merge(&nums1, 3, nums2, 3)
+
+//print(frequencySort("ttreereree"))
+
+//let a = [1]
+//print(Array(a[0..<a.count]))
+//print(sortArray([2, 5, 1]))
