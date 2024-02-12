@@ -333,3 +333,20 @@ import Foundation
 //let a = [1]
 //print(Array(a[0..<a.count]))
 //print(sortArray([2, 5, 1]))
+
+//print(numSquares(9))
+
+//print(merge([[1,4],[0,1]]))
+
+//print(largestDivisibleSubset([1, 2, 3]))
+
+//print(PalindromicSubstrings().countSubstrings("abcc"))
+
+//print(calculate("28-137*2"))
+//var nums = [10, 7, 4, 3, 1, 56, 30]
+//radixSort(&nums)
+//print(nums)
+
+//print(topKFrequent([10, 7, 4, 3, 1, 56, 5, 5, 5, 30, 4, 3, 1, 1, 1 ], 4))
+
+print(majorityElement([1, 3, 2, 1, 1, 1, 3]))
