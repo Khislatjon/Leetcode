@@ -304,17 +304,22 @@ import Foundation
 //groupAnagrams(["eat","tea","tan","ate","nat","bat"])
 
 
-//var root = TreeNode(4)
-//root.left = TreeNode(9)
-//root.right = TreeNode(0)
-//root.left?.right = TreeNode(1)
-//root.right?.right?.right = TreeNode(5)
-//root.right?.right?.right?.right = TreeNode(6)
+var root = TreeNode(5)
+root.left = TreeNode(4)
+root.right = TreeNode(2)
+root.left?.left = TreeNode(3)
+root.left?.right = TreeNode(5)
+root.right?.left = TreeNode(7)
+
+//root.left?.right?.right = TreeNode(5)
+//root.left?.right?.left = TreeNode(6)
 //root.right = TreeNode(3)
 //root.left?.left = TreeNode(5)
 //root.right?.left = TreeNode(15)
 //root.right?.right = TreeNode(7)
 //print(SumRootToLeafNumbers().sumNumbers(root))
+
+print(isEvenOddTree(root))
 
 
 //print(maximumGap([3,6,9,1]))
@@ -349,4 +354,87 @@ import Foundation
 
 //print(topKFrequent([10, 7, 4, 3, 1, 56, 5, 5, 5, 30, 4, 3, 1, 1, 1 ], 4))
 
-print(majorityElement([1, 3, 2, 1, 1, 1, 3]))
+//print(majorityElement([1, 3, 2, 1, 1, 1, 3]))
+//print(firstPalindrome(["abc","car","ada","racecar","cool"]))
+
+//print(rearrangeArray([3,1,-2,-5,2,-4]))
+
+//var cache = LRUCache(2)
+//print(cache.get(2))
+//cache.put(2, 6)
+//print(cache.cache)
+//print(cache.get(1))
+//cache.put(1, 5)
+//print(cache.cache)
+//cache.put(1, 2)
+//print(cache.cache)
+//print(cache.get(1))
+//print(cache.get(2))
+
+//cache.put(2, 2)
+//print(cache.dict)
+//print(cache.get(1))
+//cache.put(3, 3)
+//print(cache.dict)
+//print(cache.get(2))
+//cache.put(4, 4)
+//print(cache.dict)
+//print(cache.get(1))
+//print(cache.get(3))
+//print(cache.get(4))
+
+//print(largestPerimeter([5,5,50, 80]))
+
+//print(findLeastNumOfUniqueInts([4,3,1,1,3,3,2], 3))
+
+//print(maxOperations([3,2,6,1,4]))
+//print(lastNonEmptyString("abcdfsf"))
+
+//print(furthestBuilding([4,2,7,6,9,14,12], 5, 1))
+//print(furthestBuilding([4,12,2,7,3,18,20,3,19], 10, 2))
+//print(furthestBuilding([12, 11, 8, 6, 5, 3, 2], 5, 1))
+
+//print(MaximumNumberofOperationsWiththeSameScore().maxOperations([2,2,1,2,1]))
+
+//print(findJudge(5, [[1,3],[1,4],[3,4],[2,4],[4,3],[5,4]]))
+
+//print(allPathsSourceTarget([[1,2],[3],[3],[]]))
+
+//print(FindPathExists().validPath(6, [[0,1],[0,2],[3,5],[5,4],[4,3]], 0, 5))
+
+//print(findCheapestPrice(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1))
+//print(findAllPeople(12, [[10,8,6],[9,5,11],[0,5,18],[4,5,13],[11,6,17],[0,11,10],[10,11,7],[5,8,3],[7,6,16],[3,6,10],[3,11,1],[8,3,2],[5,0,7],[3,8,20],[11,0,20],[8,3,4],[1,9,4],[10,7,11],[8,10,18]], 9))
+
+//print(GreatestCommonDivisorTraversal().canTraverseAllPairs([2,3,6]))
+
+//var arr = [1,1,1,2,2,2,3]
+//print(removeDuplicates(&arr))
+//print(arr)
+
+//print(trailingZeroes(50))
+
+//print(DiameterBinaryTree().diameterOfBinaryTree(root))
+
+//print(FindBottomLeftTreeValue().findBottomLeftValue(root))
+
+//var grid: [[Character]] = [["1","0","0","1","1","1","0","1","1","0","0","0","0","0","0","0","0","0","0","0"],["1","0","0","1","1","0","0","1","0","0","0","1","0","1","0","1","0","0","1","0"],["0","0","0","1","1","1","1","0","1","0","1","1","0","0","0","0","1","0","1","0"],["0","0","0","1","1","0","0","1","0","0","0","1","1","1","0","0","1","0","0","1"],["0","0","0","0","0","0","0","1","1","1","0","0","0","0","0","0","0","0","0","0"],["1","0","0","0","0","1","0","1","0","1","1","0","0","0","0","0","0","1","0","1"],["0","0","0","1","0","0","0","1","0","1","0","1","0","1","0","1","0","1","0","1"],["0","0","0","1","0","1","0","0","1","1","0","1","0","1","1","0","1","1","1","0"],["0","0","0","0","1","0","0","1","1","0","0","0","0","1","0","0","0","1","0","1"],["0","0","1","0","0","1","0","0","0","0","0","1","0","0","1","0","0","0","1","0"],["1","0","0","1","0","0","0","0","0","0","0","1","0","0","1","0","1","0","1","0"],["0","1","0","0","0","1","0","1","0","1","1","0","1","1","1","0","1","1","0","0"],["1","1","0","1","0","0","0","0","1","0","0","0","0","0","0","1","0","0","0","1"],["0","1","0","0","1","1","1","0","0","0","1","1","1","1","1","0","1","0","0","0"],["0","0","1","1","1","0","0","0","1","1","0","0","0","1","0","1","0","0","0","0"],["1","0","0","1","0","1","0","0","0","0","1","0","0","0","1","0","1","0","1","1"],["1","0","1","0","0","0","0","0","0","1","0","0","0","1","0","1","0","0","0","0"],["0","1","1","0","0","0","1","1","1","0","1","0","1","0","1","1","1","1","0","0"],["0","1","0","0","0","0","1","1","0","0","1","0","1","0","0","1","0","0","1","1"],["0","0","0","0","0","0","1","1","1","1","0","1","0","0","0","1","1","0","0","0"]]
+//print(numIslands(grid))
+
+//var board: [[Character]] = [
+//    ["X","X","O","X"],
+//    ["X","O","X","X"],
+//    ["X","X","O","X"],
+//    ["X","O","X","X"]
+//]
+//
+//var board1: [[Character]] = [
+//
+//    ["O","O","O"],
+//    ["O","O","O"],
+//    ["O","O","O"]
+//]
+//
+//solve(&board1)
+//for row in board1 {
+//    print(row)
+//}

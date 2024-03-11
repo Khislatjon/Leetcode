@@ -953,19 +953,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //print(isAnag)
 
 
-// MARK: - 268. Missing Number
-
-//func missingNumber(_ nums: [Int]) -> Int {
-//    // space - O(1), time - O(n)
-//    let sum = nums.reduce(0, +)
-//    let all = nums.count * (nums.count + 1) / 2
-//    return all - sum
-//}
-//
-//let missingN = missingNumber([3, 2, 0])
-//print(missingN)
-
-
 // MARK: - 290. Word Pattern
 
 //func wordPattern(_ pattern: String, _ s: String) -> Bool {
