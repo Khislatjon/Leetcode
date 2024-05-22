@@ -304,12 +304,12 @@ import Foundation
 //groupAnagrams(["eat","tea","tan","ate","nat","bat"])
 
 
-var root = TreeNode(5)
-root.left = TreeNode(4)
-root.right = TreeNode(2)
-root.left?.left = TreeNode(3)
-root.left?.right = TreeNode(5)
-root.right?.left = TreeNode(7)
+//var root = TreeNode(5)
+//root.left = TreeNode(4)
+//root.right = TreeNode(2)
+//root.left?.left = TreeNode(3)
+//root.left?.right = TreeNode(5)
+//root.right?.left = TreeNode(7)
 
 //root.left?.right?.right = TreeNode(5)
 //root.left?.right?.left = TreeNode(6)
@@ -319,7 +319,7 @@ root.right?.left = TreeNode(7)
 //root.right?.right = TreeNode(7)
 //print(SumRootToLeafNumbers().sumNumbers(root))
 
-print(isEvenOddTree(root))
+//print(isEvenOddTree(root))
 
 
 //print(maximumGap([3,6,9,1]))
@@ -438,3 +438,7 @@ print(isEvenOddTree(root))
 //for row in board1 {
 //    print(row)
 //}
+
+
+//print(CombinationSum().combinationSum([2,3,4,5], 9))
+print(PalindromePartitioning().partition("aab"))

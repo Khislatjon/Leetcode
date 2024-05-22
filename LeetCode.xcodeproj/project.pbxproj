@@ -69,6 +69,8 @@
 		0E3582772B66743900EE03BB /* DefuseBomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3582762B66743900EE03BB /* DefuseBomb.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
+		0E5B5ADB2BF5E2EB00BBAC2D /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADA2BF5E2EB00BBAC2D /* CombinationSum.swift */; };
+		0E5B5ADD2BFE6EB000BBAC2D /* PalindromePartitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADC2BFE6EB000BBAC2D /* PalindromePartitioning.swift */; };
 		0E5FFAA028E6094200EB8C00 /* SearchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */; };
 		0E613B9428E723900050D79B /* MaxNumberOfBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */; };
 		0E613B9628E8A14A0050D79B /* DiagonalSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9528E8A14A0050D79B /* DiagonalSum.swift */; };
@@ -287,6 +289,8 @@
 		0E3582762B66743900EE03BB /* DefuseBomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefuseBomb.swift; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
+		0E5B5ADA2BF5E2EB00BBAC2D /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
+		0E5B5ADC2BFE6EB000BBAC2D /* PalindromePartitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromePartitioning.swift; sourceTree = "<group>"; };
 		0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatrix.swift; sourceTree = "<group>"; };
 		0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfBalloons.swift; sourceTree = "<group>"; };
 		0E613B9528E8A14A0050D79B /* DiagonalSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSum.swift; sourceTree = "<group>"; };
@@ -587,6 +591,8 @@
 			children = (
 				0E35826A2B6044A000EE03BB /* MaxLength.swift */,
 				0E3582682B5F2E2B00EE03BB /* GenerateParentheses.swift */,
+				0E5B5ADA2BF5E2EB00BBAC2D /* CombinationSum.swift */,
+				0E5B5ADC2BFE6EB000BBAC2D /* PalindromePartitioning.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -1182,6 +1188,7 @@
 				0E7E0A0C2B7F8BAF00ACC593 /* LeastNumberUniqueIntegers.swift in Sources */,
 				0E95CD0B2B56A0C800C5AB8A /* RandomizedSet.swift in Sources */,
 				0E077A8C2B71A57900FDE0E9 /* SelectionSort.swift in Sources */,
+				0E5B5ADD2BFE6EB000BBAC2D /* PalindromePartitioning.swift in Sources */,
 				0E35826F2B630DC200EE03BB /* LongestCommonSubsequence.swift in Sources */,
 				0EBBB7BC28D161F700E8FD5E /* ReverseLinkedList.swift in Sources */,
 				0ED9383229267C92005D4A6C /* FinalValueAfterOperations.swift in Sources */,
@@ -1267,6 +1274,7 @@
 				0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */,
 				0EBB251329451253005BEABE /* Interpret.swift in Sources */,
 				0E79D2F728E4B73000B85F22 /* PivotArray.swift in Sources */,
+				0E5B5ADB2BF5E2EB00BBAC2D /* CombinationSum.swift in Sources */,
 				0E6581022B6D71CE00BE3C59 /* SequentialDigits.swift in Sources */,
 				0E0E4ADA290C209600138BB8 /* FinalPrices.swift in Sources */,
 				0E2A552028D8D55500A5ACE1 /* MinTimeToType.swift in Sources */,
