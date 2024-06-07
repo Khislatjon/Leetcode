@@ -441,4 +441,17 @@ import Foundation
 
 
 //print(CombinationSum().combinationSum([2,3,4,5], 9))
-print(PalindromePartitioning().partition("aab"))
+//print(PalindromePartitioning().partition("aab"))
+
+//print(Subsets().subsets([1,2,3]))
+
+//print(equalSubstring("krrgw", "zjxss", 19))
+//print(numSteps("1111110011101010110011100100101110010100101110111010111110110010"))
+//print(scoreOfString("zaz"))
+
+//print(LongestPalindrome().longestPalindrome("abccccdd"))
+//print(commonChars(["bella","label","roller"]))
+
+print(replaceWords(["cattle", "cat","bat","rat"], "the cattle was rattled by the battery"))
+
+//print(isNStraightHand([1,2,3,4,5], 5))
