@@ -452,6 +452,35 @@ import Foundation
 //print(LongestPalindrome().longestPalindrome("abccccdd"))
 //print(commonChars(["bella","label","roller"]))
 
-print(replaceWords(["cattle", "cat","bat","rat"], "the cattle was rattled by the battery"))
+//print(replaceWords(["cattle", "cat","bat","rat"], "the cattle was rattled by the battery"))
 
-//print(isNStraightHand([1,2,3,4,5], 5))
+//print(checkSubarraySum([23,2,6,4,7], 10))
+//print(minIncrementForUnique([3,2,1,2,1,7]))
+
+//let a = GetAncestors().getAncestors(6, [[5,1],[2,3],[5,3],[0,2],[3,1],[5,2],[4,0]])
+//print(a)
+
+//print(threeConsecutiveOdds([1,2,34,3,4,5,7,23,12]))
+
+//print(intersect([1,2,2,1], [2,2,5]))
+
+//print(minDifference([5, 6, 10, 18, 20, 22]))
+
+//let seven = ListNode(0)
+//let six = ListNode(2, seven)
+//let five = ListNode(2, six)
+//let four = ListNode(0, five)
+//let three = ListNode(3, four)
+//let two = ListNode(0, three)
+//let one = ListNode(1, two)
+//let zero = ListNode(0, one)
+//
+//var head = mergeNodes(zero)
+//
+//while head != nil {
+//    print(head?.val ?? -1)
+//    head = head?.next
+//}
+//[0,1,0,3,0,2,2,0]
+
+//print(passThePillow(3, 1))

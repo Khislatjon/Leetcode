@@ -15,7 +15,7 @@ func singleNumber(_ nums: [Int]) -> [Int] {
         xor ^= num
     }
     
-    var diff = xor & (-xor)
+    let diff = xor & (-xor)
     var res = [0, 0]
     for num in nums {
         if (num & diff) == 0 {

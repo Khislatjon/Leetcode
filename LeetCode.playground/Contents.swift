@@ -1040,25 +1040,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //print(intersec)
 
 
-// MARK: - 350. Intersection of Two Arrays II
-
-//func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-//    var result = [Int]()
-//    var nums = nums2
-//
-//    for el in nums1 {
-//        if nums.contains(el) {
-//            result.append(el)
-//            nums.remove(at: nums.firstIndex(of: el)!)
-//        }
-//    }
-//    return result
-//}
-//
-//let i = intersect([1,2], [1, 1])
-//print(i)
-
-
 // MARK: - 383. Ransom Note
 
 //func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {
