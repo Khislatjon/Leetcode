@@ -484,3 +484,6 @@ import Foundation
 //[0,1,0,3,0,2,2,0]
 
 //print(passThePillow(3, 1))
+
+//print(averageWaitingTime([[5,2],[5,4],[10,3],[20,1]]))
+//print(minOperations(["d1/","../","../","../"]))
