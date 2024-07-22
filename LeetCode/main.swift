@@ -488,4 +488,6 @@ import Foundation
 //print(averageWaitingTime([[5,2],[5,4],[10,3],[20,1]]))
 //print(minOperations(["d1/","../","../","../"]))
 
-print(luckyNumbers([[1,10,4,2],[9,3,8,7],[15,16,17,12]]))
+//print(luckyNumbers([[1,10,4,2],[9,3,8,7],[15,16,17,12]]))
+
+print(sortPeople(["Mary","John","Emma"], [180,165,170]))
