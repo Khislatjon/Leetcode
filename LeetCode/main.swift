@@ -490,4 +490,6 @@ import Foundation
 
 //print(luckyNumbers([[1,10,4,2],[9,3,8,7],[15,16,17,12]]))
 
-print(sortPeople(["Mary","John","Emma"], [180,165,170]))
+//print(sortPeople(["Mary","John","Emma"], [180,165,170]))
+
+print(frequencySort([-1,1,-6,4,5,-6,1,4,1]))
