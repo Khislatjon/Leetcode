@@ -492,4 +492,9 @@ import Foundation
 
 //print(sortPeople(["Mary","John","Emma"], [180,165,170]))
 
-print(frequencySort([-1,1,-6,4,5,-6,1,4,1]))
+//print(frequencySort([-1,1,-6,4,5,-6,1,4,1]))
+
+//let c = sortJumbled([8,9,4,0,2,1,3,5,7,6], [991,338,38])
+//print(c)
+
+print(minimumDeletions("aababbab"))

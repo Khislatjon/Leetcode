@@ -1147,40 +1147,6 @@ print(mergeAlternately("abc", "pqruvg"))
 //print(ab)
 
 
-// MARK: - 2191. Sort the Jumbled Numbers
-
-//func sortJumbled(_ mapping: [Int], _ nums: [Int]) -> [Int] {
-//    var obj = [Obj]()
-//    for el in nums {
-//        var element = el
-//        var multipler = 1
-//        var sum = 0
-//        while element > 9 {
-//            sum += mapping[element % 10] * multipler
-//            element /= 10
-//            multipler *= 10
-//        }
-//        sum += mapping[element % 10] * multipler
-//        let a = Obj(el: el, sum: sum)
-//        obj.append(a)
-//    }
-//
-//    var arr = [Int]()
-//    for ob in obj.sorted(by: { $0.sum < $1.sum }) {
-//        arr.append(ob.el)
-//    }
-//    return arr
-//}
-//
-//let c = sortJumbled([8,9,4,0,2,1,3,5,7,6], [991,338,38])
-//print(c)
-//
-//struct Obj {
-//    let el: Int
-//    let sum: Int
-//}
-
-
 // MARK: - 2192. All Ancestors of a Node in a Directed Acyclic Graph
 
 func getAncestors(_ n: Int, _ edges: [[Int]]) -> [[Int]] {
