@@ -497,4 +497,6 @@ import Foundation
 //let c = sortJumbled([8,9,4,0,2,1,3,5,7,6], [991,338,38])
 //print(c)
 
-print(minimumDeletions("aababbab"))
+//print(minimumDeletions("aababbab"))
+
+print(countSeniors(["7868190130M7522","5303914400F9211","9273338290F4010"]))
