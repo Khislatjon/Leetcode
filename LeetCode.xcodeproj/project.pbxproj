@@ -154,6 +154,8 @@
 		0E9C3744291E062100DD5D39 /* SumEvenGrandparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C3743291E062100DD5D39 /* SumEvenGrandparent.swift */; };
 		0E9C37462920161500DD5D39 /* IncreasingBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37452920161500DD5D39 /* IncreasingBST.swift */; };
 		0E9C37482921618600DD5D39 /* BstToGst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37472921618600DD5D39 /* BstToGst.swift */; };
+		0E9CAD282C5CFD9900CBEE1D /* MinSwaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CAD272C5CFD9900CBEE1D /* MinSwaps.swift */; };
+		0E9E40842C5DD3BD00AEC1EB /* CanBeEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E40832C5DD3BD00AEC1EB /* CanBeEqual.swift */; };
 		0EA44E232B8AB9B1000316C9 /* FindPathExists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA44E222B8AB9B1000316C9 /* FindPathExists.swift */; };
 		0EA44E252B8BC0B9000316C9 /* CheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA44E242B8BC0B9000316C9 /* CheapestFlightsWithinKStops.swift */; };
 		0EA44E272B8BFBFF000316C9 /* FindAllPeopleWithSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA44E262B8BFBFF000316C9 /* FindAllPeopleWithSecret.swift */; };
@@ -400,6 +402,8 @@
 		0E9C3743291E062100DD5D39 /* SumEvenGrandparent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumEvenGrandparent.swift; sourceTree = "<group>"; };
 		0E9C37452920161500DD5D39 /* IncreasingBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingBST.swift; sourceTree = "<group>"; };
 		0E9C37472921618600DD5D39 /* BstToGst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BstToGst.swift; sourceTree = "<group>"; };
+		0E9CAD272C5CFD9900CBEE1D /* MinSwaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinSwaps.swift; sourceTree = "<group>"; };
+		0E9E40832C5DD3BD00AEC1EB /* CanBeEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBeEqual.swift; sourceTree = "<group>"; };
 		0EA44E222B8AB9B1000316C9 /* FindPathExists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPathExists.swift; sourceTree = "<group>"; };
 		0EA44E242B8BC0B9000316C9 /* CheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
 		0EA44E262B8BFBFF000316C9 /* FindAllPeopleWithSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPeopleWithSecret.swift; sourceTree = "<group>"; };
@@ -728,6 +732,7 @@
 			isa = PBXGroup;
 			children = (
 				0E664EC92C0572CE005C397A /* EqualSubstring.swift */,
+				0E9CAD272C5CFD9900CBEE1D /* MinSwaps.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -957,6 +962,7 @@
 				0EBA13472C0ED0F0001CABA1 /* LongestPalindromeEasy.swift */,
 				0EBA13492C11E18E001CABA1 /* CommonChars.swift */,
 				0E5059552C4FA2A8003578AF /* FrequencySort.swift */,
+				0E9E40832C5DD3BD00AEC1EB /* CanBeEqual.swift */,
 			);
 			path = HashMap;
 			sourceTree = "<group>";
@@ -1222,6 +1228,7 @@
 				0EC97E452B872B4B009E7C84 /* TownJudge.swift in Sources */,
 				0EC97E2F2B8144B5009E7C84 /* FurthestBuildingYouCanReach.swift in Sources */,
 				0E0697F428CAEEBB008DF1BC /* SwapPairs.swift in Sources */,
+				0E9E40842C5DD3BD00AEC1EB /* CanBeEqual.swift in Sources */,
 				0E68C1752B51ACAB00AF6B1D /* DeleteNode.swift in Sources */,
 				0E1159C6290E833E005F573C /* ContainsNearbyDuplicate.swift in Sources */,
 				0E05DB1A29005F88008A8450 /* CalPoints.swift in Sources */,
@@ -1263,6 +1270,7 @@
 				0E18A5862B75913D002A7311 /* MergeIntervals.swift in Sources */,
 				0E68F94B28DDEA9500C4BCDF /* ConvertToBase7.swift in Sources */,
 				0EA489DF2C368B8800B588EF /* MergeNodes.swift in Sources */,
+				0E9CAD282C5CFD9900CBEE1D /* MinSwaps.swift in Sources */,
 				0E0EBEA2293F862B00C9F071 /* HasPathSum.swift in Sources */,
 				0E9C373E291AE34600DD5D39 /* IsToeplitzMatrix.swift in Sources */,
 				0E95CD302B5B640500C5AB8A /* SumSubarrayMins.swift in Sources */,

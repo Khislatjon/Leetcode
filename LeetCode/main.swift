@@ -499,4 +499,8 @@ import Foundation
 
 //print(minimumDeletions("aababbab"))
 
-print(countSeniors(["7868190130M7522","5303914400F9211","9273338290F4010"]))
+//print(countSeniors(["7868190130M7522","5303914400F9211","9273338290F4010"]))
+
+//print(minSwaps([1,1,0,0,1]))
+
+print(canBeEqual([11,7,3, 3], [3,7,11, 7]))
