@@ -180,6 +180,7 @@
 		0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D328BDA4C600DD597C /* PartitionList.swift */; };
 		0EB326D628BDADFF00DD597C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D528BDADFF00DD597C /* AddTwoNumbers.swift */; };
 		0EB326DA28BDCA9000DD597C /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB326D928BDCA9000DD597C /* PalindromeLinkedList.swift */; };
+		0EB57C7E2C6A4ACD003B16C6 /* KthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB57C7D2C6A4ACD003B16C6 /* KthLargest.swift */; };
 		0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981728B46DF000D269E0 /* ListNode.swift */; };
 		0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */; };
 		0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */; };
@@ -224,6 +225,7 @@
 		0ED9383429295BE9005D4A6C /* MaximumWealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED9383329295BE9005D4A6C /* MaximumWealth.swift */; };
 		0ED93836292A1DF6005D4A6C /* InsertIntoBSTAVL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED93835292A1DF6005D4A6C /* InsertIntoBSTAVL.swift */; };
 		0EDABC58293E75BE00612263 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDABC57293E75BE00612263 /* MaxDepth.swift */; };
+		0EDF5E232C5FEC35002571F0 /* RangeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF5E222C5FEC35002571F0 /* RangeSum.swift */; };
 		0EEED4D128F64B0A0073235A /* CountNegatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEED4D028F64B0A0073235A /* CountNegatives.swift */; };
 		0EF1DF4D28D6B4100044FEBD /* ReorderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1DF4C28D6B4100044FEBD /* ReorderList.swift */; };
 		0EF534DB28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF534DA28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift */; };
@@ -428,6 +430,7 @@
 		0EB326D328BDA4C600DD597C /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
 		0EB326D528BDADFF00DD597C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		0EB326D928BDCA9000DD597C /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
+		0EB57C7D2C6A4ACD003B16C6 /* KthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargest.swift; sourceTree = "<group>"; };
 		0EB8981728B46DF000D269E0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		0EB8981928B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList.swift; sourceTree = "<group>"; };
 		0EB8981B28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicatesLinkedList2.swift; sourceTree = "<group>"; };
@@ -472,6 +475,7 @@
 		0ED9383329295BE9005D4A6C /* MaximumWealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumWealth.swift; sourceTree = "<group>"; };
 		0ED93835292A1DF6005D4A6C /* InsertIntoBSTAVL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertIntoBSTAVL.swift; sourceTree = "<group>"; };
 		0EDABC57293E75BE00612263 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
+		0EDF5E222C5FEC35002571F0 /* RangeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSum.swift; sourceTree = "<group>"; };
 		0EEED4D028F64B0A0073235A /* CountNegatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegatives.swift; sourceTree = "<group>"; };
 		0EF1DF4C28D6B4100044FEBD /* ReorderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderList.swift; sourceTree = "<group>"; };
 		0EF534DA28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAlmostEquivalent.swift; sourceTree = "<group>"; };
@@ -557,6 +561,7 @@
 				0E18A5892B765024002A7311 /* LargestDivisibleSubset.swift */,
 				0ECF33132C1E1FBD002553E1 /* MinIncrementForUnique.swift */,
 				0EA489DC2C358C8E00B588EF /*  MinimumDifferenceBetweenLargestSmallest3.swift */,
+				0EDF5E222C5FEC35002571F0 /* RangeSum.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -704,6 +709,7 @@
 			isa = PBXGroup;
 			children = (
 				0E65812B2B7058D200BE3C59 /* ThirdMax.swift */,
+				0EB57C7D2C6A4ACD003B16C6 /* KthLargest.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -1223,6 +1229,7 @@
 				0E95CD382B5D574600C5AB8A /* NumTrees.swift in Sources */,
 				0E9C37462920161500DD5D39 /* IncreasingBST.swift in Sources */,
 				0E1159D0290FAE0E005F573C /* InorderTraversal.swift in Sources */,
+				0EDF5E232C5FEC35002571F0 /* RangeSum.swift in Sources */,
 				0E94DD822B4D693B00C7C118 /* UniquePaths.swift in Sources */,
 				0EC97E312B82C008009E7C84 /* MeetingRoomsIII.swift in Sources */,
 				0EC97E452B872B4B009E7C84 /* TownJudge.swift in Sources */,
@@ -1281,6 +1288,7 @@
 				0E25433B2B74E9130017DBF4 /* PerfectSquares.swift in Sources */,
 				0E95CD052B568BCF00C5AB8A /* ReverseBits.swift in Sources */,
 				0E18A58F2B77F736002A7311 /* BasicCalculatorII.swift in Sources */,
+				0EB57C7E2C6A4ACD003B16C6 /* KthLargest.swift in Sources */,
 				0E05DB242907EB4D008A8450 /* BackspaceCompare.swift in Sources */,
 				0E65812C2B7058D200BE3C59 /* ThirdMax.swift in Sources */,
 				0E2B99E228FC6F0C0080561E /* MaxDistance.swift in Sources */,

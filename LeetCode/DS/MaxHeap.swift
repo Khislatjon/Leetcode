@@ -86,6 +86,7 @@ struct MaxHeap {
     }
     
     // Returns and removes the value of the parent node from the Heap
+    @discardableResult
     mutating public func poll() -> Int {
         if !items.isEmpty {
             let item = items[0]

@@ -503,4 +503,13 @@ import Foundation
 
 //print(minSwaps([1,1,0,0,1]))
 
-print(canBeEqual([11,7,3, 3], [3,7,11, 7]))
+//print(canBeEqual([11,7,3, 3], [3,7,11, 7]))
+
+//print(rangeSum([1,2,3,4], 4, 1, 5))
+
+let a = KthLargest(3, [4, 5, 8, 2])
+print(a.add(3))
+print(a.add(5))
+print(a.add(10))
+print(a.add(9))
+print(a.add(4))

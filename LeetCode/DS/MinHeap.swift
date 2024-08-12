@@ -46,9 +46,6 @@ struct MinHeap {
     
     mutating private func swap(indexOne: Int, indexTwo: Int) {
         (items[indexOne], items[indexTwo]) = (items[indexTwo], items[indexOne]) // one line swap
-//        let placeholder = items[indexOne]
-//        items[indexOne] = items[indexTwo]
-//        items[indexTwo] = placeholder
     }
     
     mutating private func heapifyUp() {
@@ -89,6 +86,7 @@ struct MinHeap {
     }
     
     // Returns and removes the value of the parent node from the Heap
+    @discardableResult
     mutating public func poll() -> Int {
         if !items.isEmpty {
             let item = items[0]
