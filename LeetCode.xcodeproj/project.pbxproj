@@ -79,6 +79,7 @@
 		0E5B5ADB2BF5E2EB00BBAC2D /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADA2BF5E2EB00BBAC2D /* CombinationSum.swift */; };
 		0E5B5ADD2BFE6EB000BBAC2D /* PalindromePartitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADC2BFE6EB000BBAC2D /* PalindromePartitioning.swift */; };
 		0E5B5ADF2C00A0FF00BBAC2D /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADE2C00A0FF00BBAC2D /* Subsets.swift */; };
+		0E5E88002C6E3529002BEE4B /* LemonadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */; };
 		0E5FFAA028E6094200EB8C00 /* SearchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */; };
 		0E613B9428E723900050D79B /* MaxNumberOfBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */; };
 		0E613B9628E8A14A0050D79B /* DiagonalSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9528E8A14A0050D79B /* DiagonalSum.swift */; };
@@ -329,6 +330,7 @@
 		0E5B5ADA2BF5E2EB00BBAC2D /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		0E5B5ADC2BFE6EB000BBAC2D /* PalindromePartitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromePartitioning.swift; sourceTree = "<group>"; };
 		0E5B5ADE2C00A0FF00BBAC2D /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeChange.swift; sourceTree = "<group>"; };
 		0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatrix.swift; sourceTree = "<group>"; };
 		0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfBalloons.swift; sourceTree = "<group>"; };
 		0E613B9528E8A14A0050D79B /* DiagonalSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSum.swift; sourceTree = "<group>"; };
@@ -984,6 +986,7 @@
 				0E74E3462C326254007CECD7 /* ThreeConsecutiveOdds.swift */,
 				0E3122AC2C3E6FEF001B3464 /* CrawlerLogFolder.swift */,
 				0E5059152C4E691F003578AF /* SortPeople.swift */,
+				0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1292,6 +1295,7 @@
 				0E05DB242907EB4D008A8450 /* BackspaceCompare.swift in Sources */,
 				0E65812C2B7058D200BE3C59 /* ThirdMax.swift in Sources */,
 				0E2B99E228FC6F0C0080561E /* MaxDistance.swift in Sources */,
+				0E5E88002C6E3529002BEE4B /* LemonadeChange.swift in Sources */,
 				0E9C37482921618600DD5D39 /* BstToGst.swift in Sources */,
 				0E6C1AB428E2042D009FC596 /* NumOfStrings.swift in Sources */,
 				0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */,
