@@ -81,6 +81,7 @@
 		0E5B5ADF2C00A0FF00BBAC2D /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B5ADE2C00A0FF00BBAC2D /* Subsets.swift */; };
 		0E5E88002C6E3529002BEE4B /* LemonadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */; };
 		0E5FFAA028E6094200EB8C00 /* SearchMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */; };
+		0E60CC1A2C7F961F00EA69A7 /* StoneGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E60CC192C7F961F00EA69A7 /* StoneGame.swift */; };
 		0E613B9428E723900050D79B /* MaxNumberOfBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */; };
 		0E613B9628E8A14A0050D79B /* DiagonalSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9528E8A14A0050D79B /* DiagonalSum.swift */; };
 		0E613B9828E98F1C0050D79B /* SetZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E613B9728E98F1C0050D79B /* SetZeroes.swift */; };
@@ -332,6 +333,7 @@
 		0E5B5ADE2C00A0FF00BBAC2D /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeChange.swift; sourceTree = "<group>"; };
 		0E5FFA9F28E6094200EB8C00 /* SearchMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatrix.swift; sourceTree = "<group>"; };
+		0E60CC192C7F961F00EA69A7 /* StoneGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneGame.swift; sourceTree = "<group>"; };
 		0E613B9328E723900050D79B /* MaxNumberOfBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberOfBalloons.swift; sourceTree = "<group>"; };
 		0E613B9528E8A14A0050D79B /* DiagonalSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSum.swift; sourceTree = "<group>"; };
 		0E613B9728E98F1C0050D79B /* SetZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetZeroes.swift; sourceTree = "<group>"; };
@@ -836,6 +838,7 @@
 				0E35826E2B630DC200EE03BB /* LongestCommonSubsequence.swift */,
 				0E3582702B63F6E400EE03BB /* OutBoundaryPaths.swift */,
 				0E65811D2B6EEFE400BE3C59 /* MaxSumAfterPartitioning.swift */,
+				0E60CC192C7F961F00EA69A7 /* StoneGame.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -1307,6 +1310,7 @@
 				0E65811E2B6EEFE400BE3C59 /* MaxSumAfterPartitioning.swift in Sources */,
 				0ECF33142C1E1FBD002553E1 /* MinIncrementForUnique.swift in Sources */,
 				0EB8CBC829338F54003AF795 /* Graph.swift in Sources */,
+				0E60CC1A2C7F961F00EA69A7 /* StoneGame.swift in Sources */,
 				0EC97E332B852AAC009E7C84 /* MissingNumber.swift in Sources */,
 				0EEED4D128F64B0A0073235A /* CountNegatives.swift in Sources */,
 				0E7E0A0A2B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift in Sources */,
