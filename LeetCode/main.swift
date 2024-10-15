@@ -507,9 +507,14 @@ import Foundation
 
 //print(rangeSum([1,2,3,4], 4, 1, 5))
 
-let a = KthLargest(3, [4, 5, 8, 2])
-print(a.add(3))
-print(a.add(5))
-print(a.add(10))
-print(a.add(9))
-print(a.add(4))
+//let a = KthLargest(3, [4, 5, 8, 2])
+//print(a.add(3))
+//print(a.add(5))
+//print(a.add(10))
+//print(a.add(9))
+//print(a.add(4))
+
+//print(StoneGame().stoneGame([7, 3, 10, 5]))
+
+//print(checkInclusion("ab", "eidbaoao"))
+print(minimumSteps("1010111"))
