@@ -517,4 +517,15 @@ import Foundation
 //print(StoneGame().stoneGame([7, 3, 10, 5]))
 
 //print(checkInclusion("ab", "eidbaoao"))
-print(minimumSteps("1010111"))
+//print(minimumSteps("1010111"))
+
+var root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+
+root.left?.left = TreeNode(4)
+root.left?.right = TreeNode(5)
+root.right?.left = TreeNode(5)
+root.right?.right = TreeNode(6)
+
+print(kthLargestLevelSum(root, 1))
