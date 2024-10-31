@@ -150,6 +150,7 @@
 		0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E22CD3B00900C01D35 /* Jump game.swift */; };
 		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
 		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
+		0E9C30EC2CD3F53000C01D35 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */; };
 		0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */; };
 		0E9C373829152DD900DD5D39 /* AverageOfSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */; };
 		0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373929179A8300DD5D39 /* RangeSumBST.swift */; };
@@ -408,6 +409,7 @@
 		0E9C30E22CD3B00900C01D35 /* Jump game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump game.swift"; sourceTree = "<group>"; };
 		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
 		0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepestLeavesSum.swift; sourceTree = "<group>"; };
 		0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageOfSubtree.swift; sourceTree = "<group>"; };
 		0E9C373929179A8300DD5D39 /* RangeSumBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumBST.swift; sourceTree = "<group>"; };
@@ -864,6 +866,7 @@
 			isa = PBXGroup;
 			children = (
 				0EA917802C33DBDB009A1D0D /* IntersectionTwoArrays.swift */,
+				0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */,
 			);
 			path = "Two Pointer";
 			sourceTree = "<group>";
@@ -1393,6 +1396,7 @@
 				0E2A551C28D8CE9000A5ACE1 /* MyStack.swift in Sources */,
 				0EC97E2C2B81040E009E7C84 /* Maximum Number of Operations With the Same Score II.swift in Sources */,
 				0E2A551E28D8CF4800A5ACE1 /* Queue.swift in Sources */,
+				0E9C30EC2CD3F53000C01D35 /* IsSubsequence.swift in Sources */,
 				0E7E09E62B7CDE0400ACC593 /* LRUCache.swift in Sources */,
 				0EC97E282B80FBBD009E7C84 /* MaximumNumberOperationsWithSameScore.swift in Sources */,
 				0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */,
