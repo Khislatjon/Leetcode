@@ -704,23 +704,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //print(getRow(3))
 
 
-// MARK: - 121. Best Time to Buy and Sell Stock
-
-//func maxProfit(_ prices: [Int]) -> Int {
-//    var buy = prices[0]
-//    var profit = 0
-//    for price in prices {
-//        let curProfit = price - buy
-//        profit = max(profit, curProfit)
-//        if curProfit < 0 {
-//            buy = price
-//        }
-//    }
-//    return profit
-//}
-//print(maxProfit([7,1,5,3,6,4]))
-
-
 // MARK: - 125. Valid Palindrome
 
 //func isPalindrome(_ s: String) -> Bool {

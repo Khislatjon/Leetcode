@@ -148,6 +148,8 @@
 		0E95CD362B5C9D2600C5AB8A /* RobHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */; };
 		0E95CD382B5D574600C5AB8A /* NumTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD372B5D574600C5AB8A /* NumTrees.swift */; };
 		0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E22CD3B00900C01D35 /* Jump game.swift */; };
+		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
+		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
 		0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */; };
 		0E9C373829152DD900DD5D39 /* AverageOfSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */; };
 		0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373929179A8300DD5D39 /* RangeSumBST.swift */; };
@@ -404,6 +406,8 @@
 		0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobHouse.swift; sourceTree = "<group>"; };
 		0E95CD372B5D574600C5AB8A /* NumTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumTrees.swift; sourceTree = "<group>"; };
 		0E9C30E22CD3B00900C01D35 /* Jump game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump game.swift"; sourceTree = "<group>"; };
+		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
+		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
 		0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepestLeavesSum.swift; sourceTree = "<group>"; };
 		0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageOfSubtree.swift; sourceTree = "<group>"; };
 		0E9C373929179A8300DD5D39 /* RangeSumBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumBST.swift; sourceTree = "<group>"; };
@@ -776,6 +780,7 @@
 				0E887CF52C5899FB00316F88 /* MinimumDeletions.swift */,
 				0EB0212E2CBE9FD700488E58 /* Separate Black and White Balls.swift */,
 				0E9C30E22CD3B00900C01D35 /* Jump game.swift */,
+				0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -1009,6 +1014,7 @@
 				0E3122AC2C3E6FEF001B3464 /* CrawlerLogFolder.swift */,
 				0E5059152C4E691F003578AF /* SortPeople.swift */,
 				0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */,
+				0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1275,6 +1281,7 @@
 				0EBA13512C1488F4001CABA1 /* CheckSubarraySum.swift in Sources */,
 				0E7938F128E35B24008B5966 /* HammingWeight.swift in Sources */,
 				0EFDA3BB28D4DC9C009C424D /* JudgeCircle.swift in Sources */,
+				0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				0E05DB1C29006F48008A8450 /* EvalRPN.swift in Sources */,
 				0ED93836292A1DF6005D4A6C /* InsertIntoBSTAVL.swift in Sources */,
 				0E18A58A2B765024002A7311 /* LargestDivisibleSubset.swift in Sources */,
@@ -1432,6 +1439,7 @@
 				0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */,
 				0E3582712B63F6E500EE03BB /* OutBoundaryPaths.swift in Sources */,
 				0E1159D62912A413005F573C /* PostOrderTraversal.swift in Sources */,
+				0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */,
 				0EC89C6A28DB782400ABC524 /* DecodeString.swift in Sources */,
 				0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */,
 				0EA44E392B9001E5000316C9 /* EvenOddTree.swift in Sources */,
