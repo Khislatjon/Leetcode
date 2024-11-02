@@ -533,4 +533,8 @@ import Foundation
 //print(maxProfit([7,1,5,3,6,4]))
 
 //print(isSubsequence("abc", "ahbgdc"))
-print(isCircularSentence("eetcode"))
+//print(isCircularSentence("eetcode"))
+
+//print(makeFancyString("trrrteeeetcode"))
+
+print(possibleStringCount("aabbcddd"))

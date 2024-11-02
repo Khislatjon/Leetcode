@@ -152,6 +152,8 @@
 		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
 		0E9C30EC2CD3F53000C01D35 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */; };
 		0E9C31002CD62D5A00C01D35 /* Circular Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */; };
+		0E9C31262CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */; };
+		0E9C31282CD6CB3900C01D35 /*  Find the Original Typed String I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31272CD6CB3900C01D35 /*  Find the Original Typed String I.swift */; };
 		0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */; };
 		0E9C373829152DD900DD5D39 /* AverageOfSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */; };
 		0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373929179A8300DD5D39 /* RangeSumBST.swift */; };
@@ -412,6 +414,8 @@
 		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
 		0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
 		0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circular Sentence.swift"; sourceTree = "<group>"; };
+		0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Characters to Make Fancy String.swift"; sourceTree = "<group>"; };
+		0E9C31272CD6CB3900C01D35 /*  Find the Original Typed String I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Find the Original Typed String I.swift"; sourceTree = "<group>"; };
 		0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepestLeavesSum.swift; sourceTree = "<group>"; };
 		0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageOfSubtree.swift; sourceTree = "<group>"; };
 		0E9C373929179A8300DD5D39 /* RangeSumBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumBST.swift; sourceTree = "<group>"; };
@@ -950,6 +954,8 @@
 				0EBA131E2C0C9EF9001CABA1 /* ScoreOfString.swift */,
 				0E887CF82C5BFCD600316F88 /* CountSeniors.swift */,
 				0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */,
+				0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */,
+				0E9C31272CD6CB3900C01D35 /*  Find the Original Typed String I.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1291,6 +1297,7 @@
 				0E05DB1C29006F48008A8450 /* EvalRPN.swift in Sources */,
 				0ED93836292A1DF6005D4A6C /* InsertIntoBSTAVL.swift in Sources */,
 				0E18A58A2B765024002A7311 /* LargestDivisibleSubset.swift in Sources */,
+				0E9C31282CD6CB3900C01D35 /*  Find the Original Typed String I.swift in Sources */,
 				0E95CD322B5C25A000C5AB8A /* EvaluateTree.swift in Sources */,
 				0E68F94728DD4E0500C4BCDF /* AddDigits.swift in Sources */,
 				0E3582772B66743900EE03BB /* DefuseBomb.swift in Sources */,
@@ -1507,6 +1514,7 @@
 				0EC9C2CD2B67D8680062956C /* ConstructBinaryTreeFromInorderPostorderTraversal.swift in Sources */,
 				0EF534ED28EDABBA0023A8DB /* FindTheDistanceValue.swift in Sources */,
 				0EB8CBC629321A85003AF795 /* FindTheWinner.swift in Sources */,
+				0E9C31262CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
