@@ -11,8 +11,8 @@ import Foundation
 
 func isSubsequence(_ s: String, _ t: String) -> Bool {
     guard !s.isEmpty else { return true }
-    var s = Array(s)
-    var t = Array(t)
+    let s = Array(s)
+    let t = Array(t)
     var sPtr = 0
     for c in t {
         if s[sPtr] == c {

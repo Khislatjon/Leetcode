@@ -151,6 +151,7 @@
 		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
 		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
 		0E9C30EC2CD3F53000C01D35 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */; };
+		0E9C31002CD62D5A00C01D35 /* Circular Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */; };
 		0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */; };
 		0E9C373829152DD900DD5D39 /* AverageOfSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */; };
 		0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373929179A8300DD5D39 /* RangeSumBST.swift */; };
@@ -410,6 +411,7 @@
 		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
 		0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
+		0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circular Sentence.swift"; sourceTree = "<group>"; };
 		0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepestLeavesSum.swift; sourceTree = "<group>"; };
 		0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageOfSubtree.swift; sourceTree = "<group>"; };
 		0E9C373929179A8300DD5D39 /* RangeSumBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumBST.swift; sourceTree = "<group>"; };
@@ -947,6 +949,7 @@
 				0E7E09DC2B7AF36300ACC593 /* FindFirstPalindromicString.swift */,
 				0EBA131E2C0C9EF9001CABA1 /* ScoreOfString.swift */,
 				0E887CF82C5BFCD600316F88 /* CountSeniors.swift */,
+				0E9C30FF2CD62D5A00C01D35 /* Circular Sentence.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1391,6 +1394,7 @@
 				0E2543352B73B8850017DBF4 /* QuickSort.swift in Sources */,
 				0E1372892939DA1A004445B1 /* ZigzagLevelOrder.swift in Sources */,
 				0EA44E2D2B8D47B6000316C9 /* FactorialTrailingZeroes.swift in Sources */,
+				0E9C31002CD62D5A00C01D35 /* Circular Sentence.swift in Sources */,
 				0EA489E12C39016E00B588EF /* PassThePillow.swift in Sources */,
 				0E2B99E028F9A0AF0080561E /* JudgeSquareSum.swift in Sources */,
 				0E2A551C28D8CE9000A5ACE1 /* MyStack.swift in Sources */,
