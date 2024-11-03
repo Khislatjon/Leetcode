@@ -537,4 +537,5 @@ import Foundation
 
 //print(makeFancyString("trrrteeeetcode"))
 
-print(possibleStringCount("aabbcddd"))
+//print(possibleStringCount("aabbcddd"))
+print(rotateString("abcde", "cdeab"))

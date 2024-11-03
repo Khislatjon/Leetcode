@@ -1,5 +1,5 @@
 //
-//   Find the Original Typed String I.swift
+//  Find the Original Typed String I.swift
 //  LeetCode
 //
 //  Created by Khislatjon Valijonov on 02/11/2024.
