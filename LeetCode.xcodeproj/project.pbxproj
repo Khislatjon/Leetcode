@@ -126,9 +126,11 @@
 		0E7E0A0A2B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E0A092B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift */; };
 		0E7E0A0C2B7F8BAF00ACC593 /* LeastNumberUniqueIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E0A0B2B7F8BAF00ACC593 /* LeastNumberUniqueIntegers.swift */; };
 		0E850DF128BF1A6A005C6923 /* IntersectionLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E850DF028BF1A6A005C6923 /* IntersectionLinkedLists.swift */; };
+		0E87ECC42CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87ECC32CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift */; };
 		0E887CF62C5899FB00316F88 /* MinimumDeletions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E887CF52C5899FB00316F88 /* MinimumDeletions.swift */; };
 		0E887CF92C5BFCD600316F88 /* CountSeniors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E887CF82C5BFCD600316F88 /* CountSeniors.swift */; };
 		0E8EC51D2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */; };
+		0E8EEA9C2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */; };
 		0E94DD822B4D693B00C7C118 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94DD812B4D693B00C7C118 /* UniquePaths.swift */; };
 		0E95CCFF2B551DC000C5AB8A /* SearchRotatedArray2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CCFE2B551DC000C5AB8A /* SearchRotatedArray2.swift */; };
 		0E95CD022B55511000C5AB8A /* FindWinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD012B55511000C5AB8A /* FindWinners.swift */; };
@@ -155,6 +157,7 @@
 		0E9C31262CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */; };
 		0E9C31282CD6CB3900C01D35 /* Find the Original Typed String I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31272CD6CB3900C01D35 /* Find the Original Typed String I.swift */; };
 		0E9C31322CD7B78E00C01D35 /* Rotate String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31312CD7B78E00C01D35 /* Rotate String.swift */; };
+		0E9C31342CD8E40300C01D35 /* String Compression III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C31332CD8E40300C01D35 /* String Compression III.swift */; };
 		0E9C37362915226400DD5D39 /* DeepestLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */; };
 		0E9C373829152DD900DD5D39 /* AverageOfSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */; };
 		0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C373929179A8300DD5D39 /* RangeSumBST.swift */; };
@@ -389,9 +392,11 @@
 		0E7E0A092B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonWithLargestPerimeter.swift; sourceTree = "<group>"; };
 		0E7E0A0B2B7F8BAF00ACC593 /* LeastNumberUniqueIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeastNumberUniqueIntegers.swift; sourceTree = "<group>"; };
 		0E850DF028BF1A6A005C6923 /* IntersectionLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionLinkedLists.swift; sourceTree = "<group>"; };
+		0E87ECC32CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Number of Changes to Make Binary String Beautiful.swift"; sourceTree = "<group>"; };
 		0E887CF52C5899FB00316F88 /* MinimumDeletions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDeletions.swift; sourceTree = "<group>"; };
 		0E887CF82C5BFCD600316F88 /* CountSeniors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSeniors.swift; sourceTree = "<group>"; };
 		0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestSumBinaryTree.swift; sourceTree = "<group>"; };
+		0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find the Power of K-Size Subarrays I.swift"; sourceTree = "<group>"; };
 		0E94DD812B4D693B00C7C118 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		0E95CCFE2B551DC000C5AB8A /* SearchRotatedArray2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedArray2.swift; sourceTree = "<group>"; };
 		0E95CD012B55511000C5AB8A /* FindWinners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWinners.swift; sourceTree = "<group>"; };
@@ -418,6 +423,7 @@
 		0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Characters to Make Fancy String.swift"; sourceTree = "<group>"; };
 		0E9C31272CD6CB3900C01D35 /* Find the Original Typed String I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find the Original Typed String I.swift"; sourceTree = "<group>"; };
 		0E9C31312CD7B78E00C01D35 /* Rotate String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate String.swift"; sourceTree = "<group>"; };
+		0E9C31332CD8E40300C01D35 /* String Compression III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Compression III.swift"; sourceTree = "<group>"; };
 		0E9C37352915226400DD5D39 /* DeepestLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepestLeavesSum.swift; sourceTree = "<group>"; };
 		0E9C373729152DD900DD5D39 /* AverageOfSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageOfSubtree.swift; sourceTree = "<group>"; };
 		0E9C373929179A8300DD5D39 /* RangeSumBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumBST.swift; sourceTree = "<group>"; };
@@ -662,6 +668,7 @@
 				0EABD2F928CCD3C200415039 /* LongestPalindrome.swift */,
 				0E18A58B2B778DED002A7311 /* PalindromicSubstrings.swift */,
 				0EBA134D2C136B9D001CABA1 /* ReplaceWords.swift */,
+				0E87ECC32CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -767,6 +774,7 @@
 				0E664EC92C0572CE005C397A /* EqualSubstring.swift */,
 				0E9CAD272C5CFD9900CBEE1D /* MinSwaps.swift */,
 				0EB020A62CB2173300488E58 /* PermutationString.swift */,
+				0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -959,6 +967,7 @@
 				0E9C31252CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift */,
 				0E9C31272CD6CB3900C01D35 /* Find the Original Typed String I.swift */,
 				0E9C31312CD7B78E00C01D35 /* Rotate String.swift */,
+				0E9C31332CD8E40300C01D35 /* String Compression III.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1314,6 +1323,7 @@
 				0E95CD022B55511000C5AB8A /* FindWinners.swift in Sources */,
 				0E047212288FB1B900D2F087 /* main.swift in Sources */,
 				0E35826D2B60C38000EE03BB /* PseudoPalindromicPaths.swift in Sources */,
+				0E8EEA9C2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift in Sources */,
 				0E9C3744291E062100DD5D39 /* SumEvenGrandparent.swift in Sources */,
 				0EA44E232B8AB9B1000316C9 /* FindPathExists.swift in Sources */,
 				0E7E09D72B79AB3F00ACC593 /* RadixSort.swift in Sources */,
@@ -1364,6 +1374,7 @@
 				0E5059162C4E691F003578AF /* SortPeople.swift in Sources */,
 				0EC97E2A2B80FDAD009E7C84 /* ApplyOperationstoMakeStringEmpty.swift in Sources */,
 				0E077A902B725A2F00FDE0E9 /* SumRootToLeafNumbers.swift in Sources */,
+				0E87ECC42CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift in Sources */,
 				0E664ECA2C0572CE005C397A /* EqualSubstring.swift in Sources */,
 				0E6581002B6BF4D300BE3C59 /* DivideArrayIntoArraysWithMaxDifference.swift in Sources */,
 				0E04C4772C4AF8D900919390 /* LuckyNumbers.swift in Sources */,
@@ -1399,6 +1410,7 @@
 				0E077A922B7266CA00FDE0E9 /* InsertionSort.swift in Sources */,
 				0EF534E428EBE49D0023A8DB /* SearchInsert.swift in Sources */,
 				0EA44E2B2B8CFFDF000316C9 /* RemoveDuplicatesfromSortedArrayII.swift in Sources */,
+				0E9C31342CD8E40300C01D35 /* String Compression III.swift in Sources */,
 				0E077A872B70FAA200FDE0E9 /* SortColors.swift in Sources */,
 				0EB8CBCD2935D0EB003AF795 /* LevelOrder.swift in Sources */,
 				0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */,

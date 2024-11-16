@@ -538,4 +538,8 @@ import Foundation
 //print(makeFancyString("trrrteeeetcode"))
 
 //print(possibleStringCount("aabbcddd"))
-print(rotateString("abcde", "cdeab"))
+//print(rotateString("abcde", "cdeab"))
+//print(compressedString("a"))
+
+//print(minChanges("100110"))
+print(FindPowerKSizeSubarrays().resultsArray([3,2,3,2,3,2], 3))
