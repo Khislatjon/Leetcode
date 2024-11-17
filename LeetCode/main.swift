@@ -542,4 +542,9 @@ import Foundation
 //print(compressedString("a"))
 
 //print(minChanges("100110"))
-print(FindPowerKSizeSubarrays().resultsArray([3,2,3,2,3,2], 3))
+//print(FindPowerKSizeSubarrays().resultsArray([3,2,3,2,3,2], 3))
+//print(kthFactor(1000, 4))
+//print(hIndex([3, 0, 6, 1, 5]))
+
+//print(subarraySum([1,2,3], 3))
+print(minSubArrayLen(4, [1,4,4]))

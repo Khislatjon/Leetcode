@@ -14,8 +14,8 @@ func equalSubstring(_ s: String, _ t: String, _ maxCost: Int) -> Int {
     var l = 0
     var result = 0
     
-    var sArray = Array(s)
-    var tArray = Array(t)
+    let sArray = Array(s)
+    let tArray = Array(t)
     
     for r in 0..<sArray.count {
         curCost += abs(Int(sArray[r].asciiValue!) - Int(tArray[r].asciiValue!))

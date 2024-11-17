@@ -131,6 +131,11 @@
 		0E887CF92C5BFCD600316F88 /* CountSeniors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E887CF82C5BFCD600316F88 /* CountSeniors.swift */; };
 		0E8EC51D2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */; };
 		0E8EEA9C2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */; };
+		0E8EEA9E2CE9464800380EF6 /* The kth Factor of n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEA9D2CE9464800380EF6 /* The kth Factor of n.swift */; };
+		0E8EEAA02CE94BF400380EF6 /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEA9F2CE94BF400380EF6 /* H-Index.swift */; };
+		0E8EEAA32CEA17DC00380EF6 /* Subarray Sum Equals K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEAA22CEA17DC00380EF6 /* Subarray Sum Equals K.swift */; };
+		0E8EEAA52CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEAA42CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift */; };
+		0E8EEAA82CEA8E3800380EF6 /* 862. Shortest Subarray with Sum at Least K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EEAA72CEA8E3800380EF6 /* 862. Shortest Subarray with Sum at Least K.swift */; };
 		0E94DD822B4D693B00C7C118 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94DD812B4D693B00C7C118 /* UniquePaths.swift */; };
 		0E95CCFF2B551DC000C5AB8A /* SearchRotatedArray2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CCFE2B551DC000C5AB8A /* SearchRotatedArray2.swift */; };
 		0E95CD022B55511000C5AB8A /* FindWinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD012B55511000C5AB8A /* FindWinners.swift */; };
@@ -397,6 +402,11 @@
 		0E887CF82C5BFCD600316F88 /* CountSeniors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSeniors.swift; sourceTree = "<group>"; };
 		0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestSumBinaryTree.swift; sourceTree = "<group>"; };
 		0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find the Power of K-Size Subarrays I.swift"; sourceTree = "<group>"; };
+		0E8EEA9D2CE9464800380EF6 /* The kth Factor of n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The kth Factor of n.swift"; sourceTree = "<group>"; };
+		0E8EEA9F2CE94BF400380EF6 /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
+		0E8EEAA22CEA17DC00380EF6 /* Subarray Sum Equals K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
+		0E8EEAA42CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. Minimum Size Subarray Sum.swift"; sourceTree = "<group>"; };
+		0E8EEAA72CEA8E3800380EF6 /* 862. Shortest Subarray with Sum at Least K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "862. Shortest Subarray with Sum at Least K.swift"; sourceTree = "<group>"; };
 		0E94DD812B4D693B00C7C118 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		0E95CCFE2B551DC000C5AB8A /* SearchRotatedArray2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedArray2.swift; sourceTree = "<group>"; };
 		0E95CD012B55511000C5AB8A /* FindWinners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWinners.swift; sourceTree = "<group>"; };
@@ -594,6 +604,7 @@
 				0ECF33132C1E1FBD002553E1 /* MinIncrementForUnique.swift */,
 				0EA489DC2C358C8E00B588EF /*  MinimumDifferenceBetweenLargestSmallest3.swift */,
 				0EDF5E222C5FEC35002571F0 /* RangeSum.swift */,
+				0E8EEA9F2CE94BF400380EF6 /* H-Index.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -754,6 +765,7 @@
 				0E65812D2B705B8700BE3C59 /* NthUglyNumber.swift */,
 				0E18A58E2B77F736002A7311 /* BasicCalculatorII.swift */,
 				0EA44E2C2B8D47B6000316C9 /* FactorialTrailingZeroes.swift */,
+				0E8EEA9D2CE9464800380EF6 /* The kth Factor of n.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -775,6 +787,7 @@
 				0E9CAD272C5CFD9900CBEE1D /* MinSwaps.swift */,
 				0EB020A62CB2173300488E58 /* PermutationString.swift */,
 				0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */,
+				0E8EEAA42CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -801,6 +814,22 @@
 				0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */,
 			);
 			path = Greedy;
+			sourceTree = "<group>";
+		};
+		0E8EEAA12CEA17C900380EF6 /* Prefix Sum */ = {
+			isa = PBXGroup;
+			children = (
+				0E8EEAA22CEA17DC00380EF6 /* Subarray Sum Equals K.swift */,
+			);
+			path = "Prefix Sum";
+			sourceTree = "<group>";
+		};
+		0E8EEAA62CEA8E1000380EF6 /* Deque */ = {
+			isa = PBXGroup;
+			children = (
+				0E8EEAA72CEA8E3800380EF6 /* 862. Shortest Subarray with Sum at Least K.swift */,
+			);
+			path = Deque;
 			sourceTree = "<group>";
 		};
 		0E94DD802B4D691300C7C118 /* DP */ = {
@@ -1100,6 +1129,7 @@
 		0EED057B289A9FA1006F6FC2 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				0E8EEAA12CEA17C900380EF6 /* Prefix Sum */,
 				0E664ECB2C05E64B005C397A /* Sliding Window */,
 				0E3582672B5F2E1800EE03BB /* Backtracking */,
 				0E95CD2C2B5AE43800C5AB8A /* Dynamic Programming */,
@@ -1138,6 +1168,7 @@
 		0EED057C289A9FA9006F6FC2 /* Hard */ = {
 			isa = PBXGroup;
 			children = (
+				0E8EEAA62CEA8E1000380EF6 /* Deque */,
 				0E65811F2B70237B00BE3C59 /* Sliding Window */,
 				0E6580FC2B6B847E00BE3C59 /* Tree */,
 				0E3582722B659BAF00EE03BB /* Dynamic Programming */,
@@ -1240,6 +1271,8 @@
 			dependencies = (
 			);
 			name = LeetCode;
+			packageProductDependencies = (
+			);
 			productName = LeetCode;
 			productReference = 0E04720E288FB1B900D2F087 /* LeetCode */;
 			productType = "com.apple.product-type.tool";
@@ -1268,6 +1301,8 @@
 				Base,
 			);
 			mainGroup = 0E047205288FB1B900D2F087;
+			packageReferences = (
+			);
 			productRefGroup = 0E04720F288FB1B900D2F087 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1336,6 +1371,7 @@
 				0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */,
 				0E18A5862B75913D002A7311 /* MergeIntervals.swift in Sources */,
 				0E68F94B28DDEA9500C4BCDF /* ConvertToBase7.swift in Sources */,
+				0E8EEAA02CE94BF400380EF6 /* H-Index.swift in Sources */,
 				0EA489DF2C368B8800B588EF /* MergeNodes.swift in Sources */,
 				0E9CAD282C5CFD9900CBEE1D /* MinSwaps.swift in Sources */,
 				0E0EBEA2293F862B00C9F071 /* HasPathSum.swift in Sources */,
@@ -1355,6 +1391,7 @@
 				0E2B99E228FC6F0C0080561E /* MaxDistance.swift in Sources */,
 				0E5E88002C6E3529002BEE4B /* LemonadeChange.swift in Sources */,
 				0E9C37482921618600DD5D39 /* BstToGst.swift in Sources */,
+				0E8EEAA32CEA17DC00380EF6 /* Subarray Sum Equals K.swift in Sources */,
 				0E6C1AB428E2042D009FC596 /* NumOfStrings.swift in Sources */,
 				0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */,
 				0EF1DF4D28D6B4100044FEBD /* ReorderList.swift in Sources */,
@@ -1393,8 +1430,10 @@
 				0E35826F2B630DC200EE03BB /* LongestCommonSubsequence.swift in Sources */,
 				0EBBB7BC28D161F700E8FD5E /* ReverseLinkedList.swift in Sources */,
 				0ED9383229267C92005D4A6C /* FinalValueAfterOperations.swift in Sources */,
+				0E8EEAA52CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift in Sources */,
 				0E95CCFF2B551DC000C5AB8A /* SearchRotatedArray2.swift in Sources */,
 				0EB8981C28B4750300D269E0 /* DeleteDuplicatesLinkedList2.swift in Sources */,
+				0E8EEAA82CEA8E3800380EF6 /* 862. Shortest Subarray with Sum at Least K.swift in Sources */,
 				0E2B99DC28F98EE70080561E /* KWeakestRows.swift in Sources */,
 				0EABD30028CDBE7E00415039 /* Sqrt.swift in Sources */,
 				0E6581232B7034ED00BE3C59 /* MinHeap.swift in Sources */,
@@ -1524,6 +1563,7 @@
 				0E95CD092B569F0400C5AB8A /* RangeBitwiseAnd.swift in Sources */,
 				0E077A942B729B1A00FDE0E9 /* MaximumGap.swift in Sources */,
 				0EA44E272B8BFBFF000316C9 /* FindAllPeopleWithSecret.swift in Sources */,
+				0E8EEA9E2CE9464800380EF6 /* The kth Factor of n.swift in Sources */,
 				0EF534EF28EDCFE60023A8DB /* FirstBadVersion.swift in Sources */,
 				0EABD2FC28CCE5D400415039 /* Extensions.swift in Sources */,
 				0EBBB7B628D0E1BB00E8FD5E /* DivideArray.swift in Sources */,
