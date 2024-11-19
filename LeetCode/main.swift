@@ -547,4 +547,6 @@ import Foundation
 //print(hIndex([3, 0, 6, 1, 5]))
 
 //print(subarraySum([1,2,3], 3))
-print(minSubArrayLen(4, [1,4,4]))
+//print(minSubArrayLen(4, [1,4,4]))
+//print(maximumSubarraySum([1,5,4,2,9,9,9], 3))
+print(decrypt([5,7,1,4], 3))

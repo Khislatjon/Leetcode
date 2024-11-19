@@ -10,31 +10,27 @@ import Foundation
 // MARK: - 1652. Defuse the Bomb
 
 func decrypt(_ code: [Int], _ k: Int) -> [Int] {
-    if k == 0 {
-        return Array(repeating: 0, count: code.count)
+    guard k != 0 else { return Array(repeating: 0, count: code.count) }
+    
+    var result: [Int] = []
+    var start = 1, end = k, curSum = 0
+    
+    if k < 0 {
+        start = code.count + k
+        end = code.count - 1
     }
     
-    var arr = code
-    let absK = abs(k)
-    
-    // sliding window
-    var total = 0
-    for temp in 1...absK {
-        let j = k > 0 ? (temp) : (code.count - temp)
-        total += code[j % code.count]
+    for i in start...end {
+        curSum += code[i]
     }
-    arr[0] = total
     
-    for i in 1..<code.count {
-        if k > 0 {
-            total -= code[i]
-            total += code[(i+k) % code.count]
-        } else {
-            total -= code[(code.count + i - absK - 1) % code.count]
-            total += code[i-1]
-        }
-        arr[i] = total
+    for i in code.indices {
+        result.append(curSum)
+        curSum -= code[start % code.count]
+        start += 1
+        end += 1
+        curSum += code[end % code.count]
     }
-    return arr
+    return result
 }
             
