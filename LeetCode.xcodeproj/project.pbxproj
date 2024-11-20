@@ -72,6 +72,7 @@
 		0E3582742B659BC200EE03BB /* KInversePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3582732B659BC200EE03BB /* KInversePairs.swift */; };
 		0E3582772B66743900EE03BB /* DefuseBomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3582762B66743900EE03BB /* DefuseBomb.swift */; };
 		0E38BBA42CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */; };
+		0E38BBA82CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
@@ -344,6 +345,7 @@
 		0E3582732B659BC200EE03BB /* KInversePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KInversePairs.swift; sourceTree = "<group>"; };
 		0E3582762B66743900EE03BB /* DefuseBomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefuseBomb.swift; sourceTree = "<group>"; };
 		0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2461. Maximum Sum of Distinct Subarrays With Length K.swift"; sourceTree = "<group>"; };
+		0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2516. Take K of Each Character From Left and Right.swift"; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
@@ -791,6 +793,7 @@
 				0E8EEA9B2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift */,
 				0E8EEAA42CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift */,
 				0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */,
+				0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -1482,6 +1485,7 @@
 				0E74E3432C302768007CECD7 /* GetAncestors.swift in Sources */,
 				0EB8CBC3292FE115003AF795 /* MinSetSize.swift in Sources */,
 				0E1159D2291181C0005F573C /* PreorderTraversal.swift in Sources */,
+				0E38BBA82CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift in Sources */,
 				0EA44E2F2B8DE2F3000316C9 /* DiameterBinaryTree.swift in Sources */,
 				0E68C1792B53113300AF6B1D /* FindSubstring.swift in Sources */,
 				0EB0212F2CBE9FD700488E58 /* Separate Black and White Balls.swift in Sources */,
