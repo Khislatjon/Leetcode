@@ -73,6 +73,10 @@
 		0E3582772B66743900EE03BB /* DefuseBomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3582762B66743900EE03BB /* DefuseBomb.swift */; };
 		0E38BBA42CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */; };
 		0E38BBA82CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */; };
+		0E38BBB72CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBB62CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift */; };
+		0E38BBB92CF0D7900086C514 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */; };
+		0E38BBBB2CF0FCF10086C514 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */; };
+		0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
@@ -346,6 +350,10 @@
 		0E3582762B66743900EE03BB /* DefuseBomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefuseBomb.swift; sourceTree = "<group>"; };
 		0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2461. Maximum Sum of Distinct Subarrays With Length K.swift"; sourceTree = "<group>"; };
 		0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2516. Take K of Each Character From Left and Right.swift"; sourceTree = "<group>"; };
+		0E38BBB62CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1072. Flip Columns For Maximum Number of Equal Rows.swift"; sourceTree = "<group>"; };
+		0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
+		0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
@@ -738,6 +746,14 @@
 			path = "Sliding Window";
 			sourceTree = "<group>";
 		};
+		0E38BBB52CF0D3E40086C514 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				0E38BBB62CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
 		0E6580FC2B6B847E00BE3C59 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -1057,6 +1073,8 @@
 				0EBA13492C11E18E001CABA1 /* CommonChars.swift */,
 				0E5059552C4FA2A8003578AF /* FrequencySort.swift */,
 				0E9E40832C5DD3BD00AEC1EB /* CanBeEqual.swift */,
+				0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */,
+				0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */,
 			);
 			path = HashMap;
 			sourceTree = "<group>";
@@ -1074,6 +1092,7 @@
 				0E5059152C4E691F003578AF /* SortPeople.swift */,
 				0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */,
 				0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */,
+				0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1156,6 +1175,7 @@
 				0EC97E462B8731C4009E7C84 /* Graph */,
 				0E887CF72C589A0000316F88 /* Greedy */,
 				0EB020A82CB29D6300488E58 /* Two Pointer */,
+				0E38BBB52CF0D3E40086C514 /* Matrix */,
 				0EC89C6928DB782400ABC524 /* DecodeString.swift */,
 				0E79D2F628E4B73000B85F22 /* PivotArray.swift */,
 				0E79D2F828E4BA0A00B85F22 /* MaxWidthOfVerticalArea.swift */,
@@ -1365,6 +1385,7 @@
 				0E047212288FB1B900D2F087 /* main.swift in Sources */,
 				0E35826D2B60C38000EE03BB /* PseudoPalindromicPaths.swift in Sources */,
 				0E8EEA9C2CE9041500380EF6 /* Find the Power of K-Size Subarrays I.swift in Sources */,
+				0E38BBB92CF0D7900086C514 /* ContainsDuplicate.swift in Sources */,
 				0E9C3744291E062100DD5D39 /* SumEvenGrandparent.swift in Sources */,
 				0EA44E232B8AB9B1000316C9 /* FindPathExists.swift in Sources */,
 				0E7E09D72B79AB3F00ACC593 /* RadixSort.swift in Sources */,
@@ -1412,6 +1433,7 @@
 				0E60CC1A2C7F961F00EA69A7 /* StoneGame.swift in Sources */,
 				0EC97E332B852AAC009E7C84 /* MissingNumber.swift in Sources */,
 				0EEED4D128F64B0A0073235A /* CountNegatives.swift in Sources */,
+				0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */,
 				0E7E0A0A2B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift in Sources */,
 				0EA44E332B8FC4BD000316C9 /* FindBottomLeftTreeValue.swift in Sources */,
 				0E0EBEA429405F6800C9F071 /* BinaryTreePaths.swift in Sources */,
@@ -1451,6 +1473,7 @@
 				0E65812E2B705B8700BE3C59 /* NthUglyNumber.swift in Sources */,
 				0E2543332B7318190017DBF4 /* MergeSort.swift in Sources */,
 				0E6581252B70521E00BE3C59 /* FindKthLargest.swift in Sources */,
+				0E38BBB72CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift in Sources */,
 				0E613B9428E723900050D79B /* MaxNumberOfBalloons.swift in Sources */,
 				0EF534F128EDD4BE0023A8DB /* SearchRange.swift in Sources */,
 				0E077A922B7266CA00FDE0E9 /* InsertionSort.swift in Sources */,
@@ -1575,6 +1598,7 @@
 				0EF534EF28EDCFE60023A8DB /* FirstBadVersion.swift in Sources */,
 				0EABD2FC28CCE5D400415039 /* Extensions.swift in Sources */,
 				0EBBB7B628D0E1BB00E8FD5E /* DivideArray.swift in Sources */,
+				0E38BBBB2CF0FCF10086C514 /* ValidAnagram.swift in Sources */,
 				0EC9C2CD2B67D8680062956C /* ConstructBinaryTreeFromInorderPostorderTraversal.swift in Sources */,
 				0EF534ED28EDABBA0023A8DB /* FindTheDistanceValue.swift in Sources */,
 				0EB8CBC629321A85003AF795 /* FindTheWinner.swift in Sources */,

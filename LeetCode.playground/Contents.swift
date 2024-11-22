@@ -81,22 +81,6 @@ import Cocoa
 //let s = solution(&f)
 //print(s)
 
-// MARK: - 1. Two Sum
-
-//func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-//    var numToIndex: [Int: Int] = [:]
-//    for index in nums.indices {
-//        let num = nums[index]
-//        let needle = target - num
-//        if let previousIndex = numToIndex[needle], previousIndex != index {
-//            return [previousIndex, index]
-//        }
-//        numToIndex[num] = index
-//    }
-//    return []
-//}
-//print(twoSum([3,2,4], 6))
-
 
 // MARK: - 3. Longest Substring Without Repeating Characters
 
@@ -890,50 +874,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //
 //let iso = isIsomorphic("paper", "title")
 //print(iso)
-
-
-// MARK: - 217. Contains Duplicate
-
-//func containsDuplicate(_ nums: [Int]) -> Bool {
-//    guard !nums.isEmpty else { return false }
-//    var dict = [Int: Int]()
-//
-//    for num in nums {
-//        if dict[num] == nil {
-//            dict[num] = num
-//        } else {
-//            return true
-//        }
-//    }
-//    return false
-//}
-//print(containsDuplicate([1, 2, 2, 4, 5]))
-
-
-// MARK: - 242. Valid Anagram
-
-//func isAnagram(_ s: String, _ t: String) -> Bool {
-//    var sDic = [Character: Int]()
-//    var tDic = [Character: Int]()
-//
-//    for sChar in s {
-//        if sDic[sChar] == nil {
-//            sDic[sChar] = 1
-//        } else {
-//            sDic[sChar]! += 1
-//        }
-//    }
-//    for tChar in t {
-//        if tDic[tChar] == nil {
-//            tDic[tChar] = 1
-//        } else {
-//            tDic[tChar]! += 1
-//        }
-//    }
-//    return sDic == tDic
-//}
-//let isAnag = isAnagram("aa", "a")
-//print(isAnag)
 
 
 // MARK: - 290. Word Pattern
