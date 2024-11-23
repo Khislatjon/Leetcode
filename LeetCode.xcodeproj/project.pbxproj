@@ -77,6 +77,7 @@
 		0E38BBB92CF0D7900086C514 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */; };
 		0E38BBBB2CF0FCF10086C514 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */; };
 		0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */; };
+		0E38BBBF2CF217520086C514 /* 1861. Rotating the Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
@@ -354,6 +355,7 @@
 		0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1861. Rotating the Box.swift"; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
@@ -750,6 +752,7 @@
 			isa = PBXGroup;
 			children = (
 				0E38BBB62CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift */,
+				0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -1557,6 +1560,7 @@
 				0E95CD0E2B56E0E100C5AB8A /* MinBitFlips.swift in Sources */,
 				0E7E09D52B799D4700ACC593 /* TopKFrequentElements.swift in Sources */,
 				0E05DB2029025B75008A8450 /* ScoreOfParentheses.swift in Sources */,
+				0E38BBBF2CF217520086C514 /* 1861. Rotating the Box.swift in Sources */,
 				0E25432F2B72FF8E0017DBF4 /* SortArray.swift in Sources */,
 				0E18A5912B794BFA002A7311 /* CherryPickupII.swift in Sources */,
 				0E613B9828E98F1C0050D79B /* SetZeroes.swift in Sources */,
