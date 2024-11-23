@@ -556,4 +556,9 @@ import Foundation
 //print(isAnagram("anagrm", "nagaram"))
 //print(twoSum([2,7,11,15], 17))
 
-print(rotateTheBox([["#"]]))
+//print(rotateTheBox([["#"]]))
+//print(mergeAlternately("abkllll", "pqrs"))
+//print(GCDOfStrings().gcdOfStrings("ABABAB", "ABAB"))
+//print(findMaxAverage([1,12,-5,-6,50,3], 4))
+//print(maxVowels("abciiidef", 5))
+print(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2))

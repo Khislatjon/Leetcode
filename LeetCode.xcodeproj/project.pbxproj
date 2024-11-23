@@ -78,6 +78,10 @@
 		0E38BBBB2CF0FCF10086C514 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */; };
 		0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */; };
 		0E38BBBF2CF217520086C514 /* 1861. Rotating the Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */; };
+		0E38BBC72CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBC62CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift */; };
+		0E38BBC92CF22F540086C514 /* Merge Strings Alternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBC82CF22F540086C514 /* Merge Strings Alternately.swift */; };
+		0E38BBCB2CF2469E0086C514 /* Maximum Average Subarray I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBCA2CF2469E0086C514 /* Maximum Average Subarray I.swift */; };
+		0E38BBCD2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
@@ -356,6 +360,10 @@
 		0E38BBBA2CF0FCF10086C514 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		0E38BBBC2CF0FDBF0086C514 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1861. Rotating the Box.swift"; sourceTree = "<group>"; };
+		0E38BBC62CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Greatest Common Divisor of Strings.swift"; sourceTree = "<group>"; };
+		0E38BBC82CF22F540086C514 /* Merge Strings Alternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Strings Alternately.swift"; sourceTree = "<group>"; };
+		0E38BBCA2CF2469E0086C514 /* Maximum Average Subarray I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Average Subarray I.swift"; sourceTree = "<group>"; };
+		0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Number of Vowels in a Substring of Given Length.swift"; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
@@ -744,6 +752,7 @@
 			isa = PBXGroup;
 			children = (
 				0E3582762B66743900EE03BB /* DefuseBomb.swift */,
+				0E38BBCA2CF2469E0086C514 /* Maximum Average Subarray I.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -813,6 +822,7 @@
 				0E8EEAA42CEA82FF00380EF6 /* 209. Minimum Size Subarray Sum.swift */,
 				0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */,
 				0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */,
+				0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -1022,6 +1032,8 @@
 				0E9C31272CD6CB3900C01D35 /* Find the Original Typed String I.swift */,
 				0E9C31312CD7B78E00C01D35 /* Rotate String.swift */,
 				0E9C31332CD8E40300C01D35 /* String Compression III.swift */,
+				0E38BBC82CF22F540086C514 /* Merge Strings Alternately.swift */,
+				0E38BBC62CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1383,6 +1395,7 @@
 				0E2543312B730ADD0017DBF4 /* SortCharactersByFrequency.swift in Sources */,
 				0E35826B2B6044A000EE03BB /* MaxLength.swift in Sources */,
 				0E9C373A29179A8300DD5D39 /* RangeSumBST.swift in Sources */,
+				0E38BBC92CF22F540086C514 /* Merge Strings Alternately.swift in Sources */,
 				0E95CD252B57DAAA00C5AB8A /* UniqueOccurrences.swift in Sources */,
 				0E95CD022B55511000C5AB8A /* FindWinners.swift in Sources */,
 				0E047212288FB1B900D2F087 /* main.swift in Sources */,
@@ -1434,6 +1447,7 @@
 				0EB8CBC829338F54003AF795 /* Graph.swift in Sources */,
 				0E38BBA42CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift in Sources */,
 				0E60CC1A2C7F961F00EA69A7 /* StoneGame.swift in Sources */,
+				0E38BBC72CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift in Sources */,
 				0EC97E332B852AAC009E7C84 /* MissingNumber.swift in Sources */,
 				0EEED4D128F64B0A0073235A /* CountNegatives.swift in Sources */,
 				0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */,
@@ -1452,6 +1466,7 @@
 				0E79D2F928E4BA0A00B85F22 /* MaxWidthOfVerticalArea.swift in Sources */,
 				0E25432A2B72C8410017DBF4 /* HeapSort.swift in Sources */,
 				0E75B1FF28F01DF500627484 /* NextGreatestLetter.swift in Sources */,
+				0E38BBCD2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift in Sources */,
 				0EDABC58293E75BE00612263 /* MaxDepth.swift in Sources */,
 				0EB326DA28BDCA9000DD597C /* PalindromeLinkedList.swift in Sources */,
 				0E95CD2B2B59CEAA00C5AB8A /* ClimbStairs.swift in Sources */,
@@ -1564,6 +1579,7 @@
 				0E25432F2B72FF8E0017DBF4 /* SortArray.swift in Sources */,
 				0E18A5912B794BFA002A7311 /* CherryPickupII.swift in Sources */,
 				0E613B9828E98F1C0050D79B /* SetZeroes.swift in Sources */,
+				0E38BBCB2CF2469E0086C514 /* Maximum Average Subarray I.swift in Sources */,
 				0E6581342B7066C400BE3C59 /* IsUgly.swift in Sources */,
 				0EB8981828B46DF000D269E0 /* ListNode.swift in Sources */,
 				0EBB251329451253005BEABE /* Interpret.swift in Sources */,

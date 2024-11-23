@@ -995,32 +995,6 @@ func solveSudoku(_ board: inout [[Character]]) {
 //}
 
 
-// MARK: - 1768. Merge Strings Alternately
-
-func mergeAlternately(_ word1: String, _ word2: String) -> String {
-    var result = ""
-    let arr1 = Array(word1)
-    let arr2 = Array(word2)
-    
-    var i = 0
-    while i < arr1.count {
-        result.append(arr1[i])
-        if i < arr2.count {
-            result.append(arr2[i])
-        }
-        i += 1
-    }
-    
-    // In case arr2 longer than arr1
-    while i < arr2.count {
-        result.append(arr2[i])
-        i += 1
-    }
-    return result
-}
-print(mergeAlternately("abc", "pqruvg"))
-
-
 // MARK: - 2186. Minimum Number of Steps to Make Two Strings Anagram II
 
 //func minSteps(_ s: String, _ t: String) -> Int {
