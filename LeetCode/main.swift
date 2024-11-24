@@ -561,4 +561,6 @@ import Foundation
 //print(GCDOfStrings().gcdOfStrings("ABABAB", "ABAB"))
 //print(findMaxAverage([1,12,-5,-6,50,3], 4))
 //print(maxVowels("abciiidef", 5))
-print(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2))
+//print(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2))
+//print(maxMatrixSum([[-1,0,-1],[-2,1,3],[3,2,2]]))
+print(kidsWithCandies([4,2,1,1,2], 1))

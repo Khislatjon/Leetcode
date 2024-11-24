@@ -165,6 +165,8 @@
 		0E95CD342B5C2D7000C5AB8A /* MergeTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD332B5C2D7000C5AB8A /* MergeTrees.swift */; };
 		0E95CD362B5C9D2600C5AB8A /* RobHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */; };
 		0E95CD382B5D574600C5AB8A /* NumTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD372B5D574600C5AB8A /* NumTrees.swift */; };
+		0E9B75932CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */; };
+		0E9B75952CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */; };
 		0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E22CD3B00900C01D35 /* Jump game.swift */; };
 		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
 		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
@@ -447,6 +449,8 @@
 		0E95CD332B5C2D7000C5AB8A /* MergeTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTrees.swift; sourceTree = "<group>"; };
 		0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobHouse.swift; sourceTree = "<group>"; };
 		0E95CD372B5D574600C5AB8A /* NumTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumTrees.swift; sourceTree = "<group>"; };
+		0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1975. Maximum Matrix Sum.swift"; sourceTree = "<group>"; };
+		0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		0E9C30E22CD3B00900C01D35 /* Jump game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump game.swift"; sourceTree = "<group>"; };
 		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
@@ -762,6 +766,7 @@
 			children = (
 				0E38BBB62CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift */,
 				0E38BBBE2CF217520086C514 /* 1861. Rotating the Box.swift */,
+				0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -1108,6 +1113,7 @@
 				0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */,
 				0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */,
 				0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */,
+				0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1433,6 +1439,7 @@
 				0E65812C2B7058D200BE3C59 /* ThirdMax.swift in Sources */,
 				0E2B99E228FC6F0C0080561E /* MaxDistance.swift in Sources */,
 				0E5E88002C6E3529002BEE4B /* LemonadeChange.swift in Sources */,
+				0E9B75932CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift in Sources */,
 				0E9C37482921618600DD5D39 /* BstToGst.swift in Sources */,
 				0E8EEAA32CEA17DC00380EF6 /* Subarray Sum Equals K.swift in Sources */,
 				0E6C1AB428E2042D009FC596 /* NumOfStrings.swift in Sources */,
@@ -1453,6 +1460,7 @@
 				0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */,
 				0E7E0A0A2B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift in Sources */,
 				0EA44E332B8FC4BD000316C9 /* FindBottomLeftTreeValue.swift in Sources */,
+				0E9B75952CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift in Sources */,
 				0E0EBEA429405F6800C9F071 /* BinaryTreePaths.swift in Sources */,
 				0E5059162C4E691F003578AF /* SortPeople.swift in Sources */,
 				0EC97E2A2B80FDAD009E7C84 /* ApplyOperationstoMakeStringEmpty.swift in Sources */,
