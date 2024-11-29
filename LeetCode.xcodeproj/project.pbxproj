@@ -167,6 +167,7 @@
 		0E95CD382B5D574600C5AB8A /* NumTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD372B5D574600C5AB8A /* NumTrees.swift */; };
 		0E9B75932CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */; };
 		0E9B75952CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */; };
+		0E9B75972CF94A1F00244E2A /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75962CF94A1F00244E2A /* MoveZeroes.swift */; };
 		0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E22CD3B00900C01D35 /* Jump game.swift */; };
 		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
 		0E9C30EA2CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */; };
@@ -451,6 +452,7 @@
 		0E95CD372B5D574600C5AB8A /* NumTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumTrees.swift; sourceTree = "<group>"; };
 		0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1975. Maximum Matrix Sum.swift"; sourceTree = "<group>"; };
 		0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
+		0E9B75962CF94A1F00244E2A /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		0E9C30E22CD3B00900C01D35 /* Jump game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump game.swift"; sourceTree = "<group>"; };
 		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		0E9C30E92CD3E7F600C01D35 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
@@ -952,6 +954,7 @@
 			children = (
 				0EA917802C33DBDB009A1D0D /* IntersectionTwoArrays.swift */,
 				0E9C30EB2CD3F53000C01D35 /* IsSubsequence.swift */,
+				0E9B75962CF94A1F00244E2A /* MoveZeroes.swift */,
 			);
 			path = "Two Pointer";
 			sourceTree = "<group>";
@@ -1510,6 +1513,7 @@
 				0EB8CBCD2935D0EB003AF795 /* LevelOrder.swift in Sources */,
 				0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */,
 				0E2543352B73B8850017DBF4 /* QuickSort.swift in Sources */,
+				0E9B75972CF94A1F00244E2A /* MoveZeroes.swift in Sources */,
 				0E1372892939DA1A004445B1 /* ZigzagLevelOrder.swift in Sources */,
 				0EA44E2D2B8D47B6000316C9 /* FactorialTrailingZeroes.swift in Sources */,
 				0E9C31002CD62D5A00C01D35 /* Circular Sentence.swift in Sources */,

@@ -563,4 +563,7 @@ import Foundation
 //print(maxVowels("abciiidef", 5))
 //print(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2))
 //print(maxMatrixSum([[-1,0,-1],[-2,1,3],[3,2,2]]))
-print(kidsWithCandies([4,2,1,1,2], 1))
+//print(kidsWithCandies([4,2,1,1,2], 1))
+var arr = [0,1,3, 0, 5, 11, 0, 2, 4, 0]
+moveZeroes(&arr)
+print(arr)
