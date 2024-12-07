@@ -527,6 +527,7 @@ import Foundation
 //root.left?.right = TreeNode(5)
 //root.right?.left = TreeNode(5)
 //root.right?.right = TreeNode(6)
+//root.left?.right?.left = TreeNode(10)
 //
 //print(kthLargestLevelSum(root, 1))
 
@@ -564,6 +565,11 @@ import Foundation
 //print(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2))
 //print(maxMatrixSum([[-1,0,-1],[-2,1,3],[3,2,2]]))
 //print(kidsWithCandies([4,2,1,1,2], 1))
-var arr = [0,1,3, 0, 5, 11, 0, 2, 4, 0]
-moveZeroes(&arr)
-print(arr)
+//var arr = [0,1,3, 0, 5, 11, 0, 2, 4, 0]
+//moveZeroes(&arr)
+//print(arr)
+
+//print(longestZigZag(root))
+
+//var nums = [1]
+//print(RemoveDuplicatesfromSortedArrayI().removeDuplicates(&nums))

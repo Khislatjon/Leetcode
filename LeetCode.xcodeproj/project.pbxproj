@@ -83,6 +83,7 @@
 		0E38BBCB2CF2469E0086C514 /* Maximum Average Subarray I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBCA2CF2469E0086C514 /* Maximum Average Subarray I.swift */; };
 		0E38BBCD2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
+		0E42CCAE2D0261BA00957098 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42CCAD2D0261BA00957098 /* LongestCommonPrefix.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
 		0E5059162C4E691F003578AF /* SortPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5059152C4E691F003578AF /* SortPeople.swift */; };
@@ -166,7 +167,7 @@
 		0E95CD362B5C9D2600C5AB8A /* RobHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */; };
 		0E95CD382B5D574600C5AB8A /* NumTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95CD372B5D574600C5AB8A /* NumTrees.swift */; };
 		0E9B75932CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */; };
-		0E9B75952CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */; };
+		0E9B75952CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75942CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift */; };
 		0E9B75972CF94A1F00244E2A /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B75962CF94A1F00244E2A /* MoveZeroes.swift */; };
 		0E9C30E32CD3B00900C01D35 /* Jump game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E22CD3B00900C01D35 /* Jump game.swift */; };
 		0E9C30E82CD3E56D00C01D35 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */; };
@@ -262,6 +263,11 @@
 		0EDABC58293E75BE00612263 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDABC57293E75BE00612263 /* MaxDepth.swift */; };
 		0EDF5E232C5FEC35002571F0 /* RangeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF5E222C5FEC35002571F0 /* RangeSum.swift */; };
 		0EEED4D128F64B0A0073235A /* CountNegatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEED4D028F64B0A0073235A /* CountNegatives.swift */; };
+		0EF0A9EE2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0A9ED2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift */; };
+		0EF0A9F12CFFCEB700FC8A61 /* MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0A9F02CFFCEB700FC8A61 /* MedianofTwoSortedArrays.swift */; };
+		0EF0A9F32CFFD99C00FC8A61 /* RemoveDuplicatesfromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0A9F22CFFD99C00FC8A61 /* RemoveDuplicatesfromSortedArray.swift */; };
+		0EF0A9F52D01327300FC8A61 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0A9F42D01327300FC8A61 /* ValidParentheses.swift */; };
+		0EF0A9F72D0132E500FC8A61 /* 3. Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0A9F62D0132E500FC8A61 /* 3. Longest Substring Without Repeating Characters.swift */; };
 		0EF1DF4D28D6B4100044FEBD /* ReorderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1DF4C28D6B4100044FEBD /* ReorderList.swift */; };
 		0EF534DB28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF534DA28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift */; };
 		0EF534E028EBDC780023A8DB /* SearchBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF534DF28EBDC780023A8DB /* SearchBinary.swift */; };
@@ -368,6 +374,7 @@
 		0E38BBCA2CF2469E0086C514 /* Maximum Average Subarray I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Average Subarray I.swift"; sourceTree = "<group>"; };
 		0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Number of Vowels in a Substring of Given Length.swift"; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
+		0E42CCAD2D0261BA00957098 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
 		0E5059152C4E691F003578AF /* SortPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPeople.swift; sourceTree = "<group>"; };
@@ -451,7 +458,7 @@
 		0E95CD352B5C9D2600C5AB8A /* RobHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobHouse.swift; sourceTree = "<group>"; };
 		0E95CD372B5D574600C5AB8A /* NumTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumTrees.swift; sourceTree = "<group>"; };
 		0E9B75922CF34F3A00244E2A /* 1975. Maximum Matrix Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1975. Maximum Matrix Sum.swift"; sourceTree = "<group>"; };
-		0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
+		0E9B75942CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsWiththeGreatestNumberCandies.swift; sourceTree = "<group>"; };
 		0E9B75962CF94A1F00244E2A /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		0E9C30E22CD3B00900C01D35 /* Jump game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump game.swift"; sourceTree = "<group>"; };
 		0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -547,6 +554,11 @@
 		0EDABC57293E75BE00612263 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
 		0EDF5E222C5FEC35002571F0 /* RangeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSum.swift; sourceTree = "<group>"; };
 		0EEED4D028F64B0A0073235A /* CountNegatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegatives.swift; sourceTree = "<group>"; };
+		0EF0A9ED2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestZigZagPathBinaryTree.swift; sourceTree = "<group>"; };
+		0EF0A9F02CFFCEB700FC8A61 /* MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
+		0EF0A9F22CFFD99C00FC8A61 /* RemoveDuplicatesfromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesfromSortedArray.swift; sourceTree = "<group>"; };
+		0EF0A9F42D01327300FC8A61 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		0EF0A9F62D0132E500FC8A61 /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 		0EF1DF4C28D6B4100044FEBD /* ReorderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderList.swift; sourceTree = "<group>"; };
 		0EF534DA28EB3B8E0023A8DB /* CheckAlmostEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAlmostEquivalent.swift; sourceTree = "<group>"; };
 		0EF534DF28EBDC780023A8DB /* SearchBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBinary.swift; sourceTree = "<group>"; };
@@ -651,7 +663,7 @@
 			path = Sorting;
 			sourceTree = "<group>";
 		};
-		0E1159CB290FAB04005F573C /* BinarySearchTree */ = {
+		0E1159CB290FAB04005F573C /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
 				0E1159CC290FAB1D005F573C /* IsValidBST.swift */,
@@ -674,8 +686,9 @@
 				0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */,
 				0E0C53182C44D59900935F55 /* CreateBinaryTree.swift */,
 				0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */,
+				0EF0A9ED2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift */,
 			);
-			path = BinarySearchTree;
+			path = BinaryTree;
 			sourceTree = "<group>";
 		};
 		0E1159CE290FADF8005F573C /* BinarySearchTree */ = {
@@ -729,6 +742,7 @@
 				0E05DB252907EE6B008A8450 /* RemoveOuterParentheses.swift */,
 				0E06B5E0290A95A800A2782B /* RemoveAdjacentDuplicates.swift */,
 				0E0E4AD9290C209600138BB8 /* FinalPrices.swift */,
+				0EF0A9F42D01327300FC8A61 /* ValidParentheses.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -830,6 +844,7 @@
 				0E38BBA32CEC9C450086C514 /* 2461. Maximum Sum of Distinct Subarrays With Length K.swift */,
 				0E38BBA72CEE3B720086C514 /* 2516. Take K of Each Character From Left and Right.swift */,
 				0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */,
+				0EF0A9F62D0132E500FC8A61 /* 3. Longest Substring Without Repeating Characters.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -1042,6 +1057,7 @@
 				0E9C31332CD8E40300C01D35 /* String Compression III.swift */,
 				0E38BBC82CF22F540086C514 /* Merge Strings Alternately.swift */,
 				0E38BBC62CF22DCD0086C514 /* Greatest Common Divisor of Strings.swift */,
+				0E42CCAD2D0261BA00957098 /* LongestCommonPrefix.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1116,7 +1132,8 @@
 				0E5E87FF2C6E3529002BEE4B /* LemonadeChange.swift */,
 				0E9C30E72CD3E56D00C01D35 /* MaxProfit.swift */,
 				0E38BBB82CF0D7900086C514 /* ContainsDuplicate.swift */,
-				0E9B75942CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift */,
+				0E9B75942CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift */,
+				0EF0A9F22CFFD99C00FC8A61 /* RemoveDuplicatesfromSortedArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1186,7 +1203,7 @@
 				0E95CD002B55510200C5AB8A /* Hash Map */,
 				0EB8CBC429321A6C003AF795 /* Recursion */,
 				0ED93837292D07C4005D4A6C /* Heap */,
-				0E1159CB290FAB04005F573C /* BinarySearchTree */,
+				0E1159CB290FAB04005F573C /* BinaryTree */,
 				0EB326CE28BC833200DD597C /* LinkedList */,
 				0EFDA3BC28D564DA009C424D /* Stack */,
 				0EF534E528EBEB7A0023A8DB /* BinarySearch */,
@@ -1223,6 +1240,7 @@
 				0E6580FC2B6B847E00BE3C59 /* Tree */,
 				0E3582722B659BAF00EE03BB /* Dynamic Programming */,
 				0E68C1782B53113300AF6B1D /* FindSubstring.swift */,
+				0EF0A9EF2CFFCEA700FC8A61 /* Binary Search */,
 				0EC97E302B82C008009E7C84 /* MeetingRoomsIII.swift */,
 				0EA44E262B8BFBFF000316C9 /* FindAllPeopleWithSecret.swift */,
 				0EA44E282B8CE7A9000316C9 /* GreatestCommonDivisorTraversal.swift */,
@@ -1259,6 +1277,14 @@
 			children = (
 			);
 			path = Medium;
+			sourceTree = "<group>";
+		};
+		0EF0A9EF2CFFCEA700FC8A61 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0A9F02CFFCEB700FC8A61 /* MedianofTwoSortedArrays.swift */,
+			);
+			path = "Binary Search";
 			sourceTree = "<group>";
 		};
 		0EF534DE28EBDC380023A8DB /* BinarySearch */ = {
@@ -1374,6 +1400,7 @@
 				0E94DD822B4D693B00C7C118 /* UniquePaths.swift in Sources */,
 				0EC97E312B82C008009E7C84 /* MeetingRoomsIII.swift in Sources */,
 				0EC97E452B872B4B009E7C84 /* TownJudge.swift in Sources */,
+				0EF0A9EE2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift in Sources */,
 				0EC97E2F2B8144B5009E7C84 /* FurthestBuildingYouCanReach.swift in Sources */,
 				0E0697F428CAEEBB008DF1BC /* SwapPairs.swift in Sources */,
 				0E9E40842C5DD3BD00AEC1EB /* CanBeEqual.swift in Sources */,
@@ -1449,6 +1476,7 @@
 				0EB8981A28B46FA900D269E0 /* DeleteDuplicatesLinkedList.swift in Sources */,
 				0EF1DF4D28D6B4100044FEBD /* ReorderList.swift in Sources */,
 				0E74E3472C326254007CECD7 /* ThreeConsecutiveOdds.swift in Sources */,
+				0E42CCAE2D0261BA00957098 /* LongestCommonPrefix.swift in Sources */,
 				0EA917812C33DBDB009A1D0D /* IntersectionTwoArrays.swift in Sources */,
 				0E3582692B5F2E2B00EE03BB /* GenerateParentheses.swift in Sources */,
 				0EC97E482B8731E5009E7C84 /* AllPathsFromSourceTarget.swift in Sources */,
@@ -1463,7 +1491,7 @@
 				0E38BBBD2CF0FDBF0086C514 /* TwoSum.swift in Sources */,
 				0E7E0A0A2B7D912C00ACC593 /* PolygonWithLargestPerimeter.swift in Sources */,
 				0EA44E332B8FC4BD000316C9 /* FindBottomLeftTreeValue.swift in Sources */,
-				0E9B75952CF3570700244E2A /* 1431. Kids With the Greatest Number of Candies.swift in Sources */,
+				0E9B75952CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift in Sources */,
 				0E0EBEA429405F6800C9F071 /* BinaryTreePaths.swift in Sources */,
 				0E5059162C4E691F003578AF /* SortPeople.swift in Sources */,
 				0EC97E2A2B80FDAD009E7C84 /* ApplyOperationstoMakeStringEmpty.swift in Sources */,
@@ -1501,6 +1529,7 @@
 				0E05DB1428FDBA84008A8450 /* SearchRotatedArray.swift in Sources */,
 				0E65812E2B705B8700BE3C59 /* NthUglyNumber.swift in Sources */,
 				0E2543332B7318190017DBF4 /* MergeSort.swift in Sources */,
+				0EF0A9F72D0132E500FC8A61 /* 3. Longest Substring Without Repeating Characters.swift in Sources */,
 				0E6581252B70521E00BE3C59 /* FindKthLargest.swift in Sources */,
 				0E38BBB72CF0D3F90086C514 /* 1072. Flip Columns For Maximum Number of Equal Rows.swift in Sources */,
 				0E613B9428E723900050D79B /* MaxNumberOfBalloons.swift in Sources */,
@@ -1513,6 +1542,7 @@
 				0EB8CBCD2935D0EB003AF795 /* LevelOrder.swift in Sources */,
 				0EB326D428BDA4C600DD597C /* PartitionList.swift in Sources */,
 				0E2543352B73B8850017DBF4 /* QuickSort.swift in Sources */,
+				0EF0A9F52D01327300FC8A61 /* ValidParentheses.swift in Sources */,
 				0E9B75972CF94A1F00244E2A /* MoveZeroes.swift in Sources */,
 				0E1372892939DA1A004445B1 /* ZigzagLevelOrder.swift in Sources */,
 				0EA44E2D2B8D47B6000316C9 /* FactorialTrailingZeroes.swift in Sources */,
@@ -1532,8 +1562,10 @@
 				0ED9383429295BE9005D4A6C /* MaximumWealth.swift in Sources */,
 				0EA44E292B8CE7A9000316C9 /* GreatestCommonDivisorTraversal.swift in Sources */,
 				0E1159CD290FAB1D005F573C /* IsValidBST.swift in Sources */,
+				0EF0A9F12CFFCEB700FC8A61 /* MedianofTwoSortedArrays.swift in Sources */,
 				0E9C3740291BD4CE00DD5D39 /* SumRootToLeaf.swift in Sources */,
 				0E06B5E1290A95A800A2782B /* RemoveAdjacentDuplicates.swift in Sources */,
+				0EF0A9F32CFFD99C00FC8A61 /* RemoveDuplicatesfromSortedArray.swift in Sources */,
 				0E6581292B70558000BE3C59 /* MaxHeap.swift in Sources */,
 				0E74E3432C302768007CECD7 /* GetAncestors.swift in Sources */,
 				0EB8CBC3292FE115003AF795 /* MinSetSize.swift in Sources */,

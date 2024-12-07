@@ -82,46 +82,6 @@ import Cocoa
 //print(s)
 
 
-// MARK: - 3. Longest Substring Without Repeating Characters
-
-//func lengthOfLongestSubstring(_ s: String) -> Int {
-//    var charToLastIndex: [Character: Int] = [:]
-//    var answer = 0
-//
-//    for (index, char) in s.enumerated() {
-//        if let lastIndexOfDuplicate = charToLastIndex[char] {
-//            charToLastIndex = charToLastIndex.filter { $1 > lastIndexOfDuplicate }
-//        }
-//        charToLastIndex[char] = index
-//        answer = max(answer, charToLastIndex.count)
-//    }
-//
-//    return answer
-//}
-//
-//print(lengthOfLongestSubstring("abaakelf"))
-//print(lengthOfLongestSubstring("wwke"))
-//print(lengthOfLongestSubstring("abccade"))
-//print(lengthOfLongestSubstring("bcadef"))
-//print(lengthOfLongestSubstring("dvdf"))
-//print(lengthOfLongestSubstring("abcadef"))
-
-
-// MARK: - 4. Median of Two Sorted Arrays
-
-//func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
-//    let resultArr = (nums1 + nums2).sorted()
-//    if resultArr.count % 2 == 0 {
-//        return Double(resultArr[resultArr.count / 2 - 1] + resultArr[resultArr.count / 2]) / 2.0
-//    } else {
-//        return Double(resultArr[resultArr.count / 2])
-//    }
-//}
-//
-//let a = findMedianSortedArrays([4, 3], [5])
-//print(a)
-
-
 // MARK: - 6. Zigzag Conversion
 
 //func convert(_ s: String, _ numRows: Int) -> String {
@@ -249,24 +209,6 @@ import Cocoa
 //
 //let roman = romanToInt("MCXIII")
 //print(roman)
-
-
-// MARK: - 14. Longest Common Prefix
-
-//func longestCommonPrefix(_ strs: [String]) -> String {
-//    guard strs.count > 0 else { return "" }
-//    var minStr = (strs.min{$0.count < $1.count})!
-//
-//    for str in strs {
-//        while !str.hasPrefix(minStr) {
-//            minStr.removeLast()
-//        }
-//    }
-//    return minStr
-//}
-//
-//let prefix = longestCommonPrefix(["ab", "absg"])
-//print(prefix)
 
 
 // MARK: - 15. 3Sum
@@ -420,30 +362,6 @@ import Cocoa
 //
 //let a = fourSum([1,0,-1,0,-2,2], 0)
 //print(a)
-
-
-// MARK: - 20. Valid Parentheses
-
-//func isValid(_ s: String) -> Bool {
-//    let dict: [Character:Character] = ["{":"}", "[":"]", "(":")"]
-//    var opened: [Character] = []
-//
-//    for char in s {
-//        if dict.keys.contains(char) {
-//            opened.append(char)
-//        } else {
-//            if char == dict[opened.last ?? "0"] {
-//                opened.removeLast()
-//            } else {
-//                return false
-//            }
-//        }
-//    }
-//
-//    return opened.isEmpty
-//}
-//
-//print(isValid("[([]])"))
 
 // MARK: - 28. Implement strStr()
 

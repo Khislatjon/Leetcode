@@ -9,15 +9,17 @@ import Foundation
 
 // MARK: - 1047. Remove All Adjacent Duplicates In String
 
-func removeDuplicates(_ s: String) -> String {
-    var res = [String]()
-    for ch in s {
-        let str = String(ch)
-        if res.last == str {
-            res.popLast()
-        } else {
-            res.append(str)
+class RemoveAdjacentDuplicates {
+    func removeDuplicates(_ s: String) -> String {
+        var res = [String]()
+        for ch in s {
+            let str = String(ch)
+            if res.last == str {
+                res.popLast()
+            } else {
+                res.append(str)
+            }
         }
+        return res.joined()
     }
-    return res.joined()
 }
