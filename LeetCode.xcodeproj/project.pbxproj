@@ -84,6 +84,8 @@
 		0E38BBCD2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */; };
 		0E3CDA4F2913F8DC0094D139 /* IsStrictlyPalindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */; };
 		0E42CCAE2D0261BA00957098 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42CCAD2D0261BA00957098 /* LongestCommonPrefix.swift */; };
+		0E42CCB22D05E5B200957098 /* MaxNumberK-SumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42CCB12D05E5B200957098 /* MaxNumberK-SumPairs.swift */; };
+		0E42CCB42D0621EF00957098 /* LeafSimilarTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42CCB32D0621EF00957098 /* LeafSimilarTrees.swift */; };
 		0E465C91293B4E84006CCDDF /* IsSymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */; };
 		0E4F83C12C2C54D800AA22BD /* BalanceBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */; };
 		0E5059162C4E691F003578AF /* SortPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5059152C4E691F003578AF /* SortPeople.swift */; };
@@ -375,6 +377,8 @@
 		0E38BBCC2CF248310086C514 /* Maximum Number of Vowels in a Substring of Given Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Number of Vowels in a Substring of Given Length.swift"; sourceTree = "<group>"; };
 		0E3CDA4E2913F8DC0094D139 /* IsStrictlyPalindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStrictlyPalindromic.swift; sourceTree = "<group>"; };
 		0E42CCAD2D0261BA00957098 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		0E42CCB12D05E5B200957098 /* MaxNumberK-SumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaxNumberK-SumPairs.swift"; sourceTree = "<group>"; };
+		0E42CCB32D0621EF00957098 /* LeafSimilarTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafSimilarTrees.swift; sourceTree = "<group>"; };
 		0E465C90293B4E84006CCDDF /* IsSymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetricTree.swift; sourceTree = "<group>"; };
 		0E4F83C02C2C54D800AA22BD /* BalanceBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBST.swift; sourceTree = "<group>"; };
 		0E5059152C4E691F003578AF /* SortPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPeople.swift; sourceTree = "<group>"; };
@@ -687,6 +691,7 @@
 				0E0C53182C44D59900935F55 /* CreateBinaryTree.swift */,
 				0E8EC51C2CC7F3BF00C93413 /* KthLargestSumBinaryTree.swift */,
 				0EF0A9ED2CFFBBC800FC8A61 /* LongestZigZagPathBinaryTree.swift */,
+				0E42CCB32D0621EF00957098 /* LeafSimilarTrees.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -909,6 +914,7 @@
 				0E7E09D42B799D4700ACC593 /* TopKFrequentElements.swift */,
 				0E7E0A0B2B7F8BAF00ACC593 /* LeastNumberUniqueIntegers.swift */,
 				0EBA13502C1488F4001CABA1 /* CheckSubarraySum.swift */,
+				0E42CCB12D05E5B200957098 /* MaxNumberK-SumPairs.swift */,
 			);
 			path = "Hash Map";
 			sourceTree = "<group>";
@@ -1494,6 +1500,7 @@
 				0E9B75952CF3570700244E2A /* KidsWiththeGreatestNumberCandies.swift in Sources */,
 				0E0EBEA429405F6800C9F071 /* BinaryTreePaths.swift in Sources */,
 				0E5059162C4E691F003578AF /* SortPeople.swift in Sources */,
+				0E42CCB42D0621EF00957098 /* LeafSimilarTrees.swift in Sources */,
 				0EC97E2A2B80FDAD009E7C84 /* ApplyOperationstoMakeStringEmpty.swift in Sources */,
 				0E077A902B725A2F00FDE0E9 /* SumRootToLeafNumbers.swift in Sources */,
 				0E87ECC42CDA871600FC9033 /* Minimum Number of Changes to Make Binary String Beautiful.swift in Sources */,
@@ -1666,6 +1673,7 @@
 				0EC9C2CD2B67D8680062956C /* ConstructBinaryTreeFromInorderPostorderTraversal.swift in Sources */,
 				0EF534ED28EDABBA0023A8DB /* FindTheDistanceValue.swift in Sources */,
 				0EB8CBC629321A85003AF795 /* FindTheWinner.swift in Sources */,
+				0E42CCB22D05E5B200957098 /* MaxNumberK-SumPairs.swift in Sources */,
 				0E9C31262CD6802A00C01D35 /* Delete Characters to Make Fancy String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

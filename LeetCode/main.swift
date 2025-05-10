@@ -573,3 +573,7 @@ import Foundation
 
 //var nums = [1]
 //print(RemoveDuplicatesfromSortedArrayI().removeDuplicates(&nums))
+//let word = "hello"
+//let set = Set(word)
+//print(Set(word))
+//print(Set(word))
